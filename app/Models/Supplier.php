@@ -40,5 +40,4 @@ class Supplier extends Model
     {
         return $this->hasMany('App\Models\PurchaseOrder');
     }
-        
 }

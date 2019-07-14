@@ -22,6 +22,4 @@ class EmployeePrivilege extends Model
     ];
 
     protected $guarded = [];
-
-        
 }

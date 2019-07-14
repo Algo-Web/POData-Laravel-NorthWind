@@ -24,5 +24,4 @@ class OrderDetailsStatus extends Model
     {
         return $this->belongsTo(OrderDetail::class, 'status_id');
     }
-
 }

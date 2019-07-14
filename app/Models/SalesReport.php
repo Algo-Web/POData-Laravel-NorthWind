@@ -14,7 +14,7 @@ class SalesReport extends Model
 
     protected $primaryKey = 'group_by';
 
-	public $timestamps = false;
+    public $timestamps = false;
 
     protected $fillable = [
         'display',
@@ -24,6 +24,4 @@ class SalesReport extends Model
     ];
 
     protected $guarded = [];
-
-        
 }

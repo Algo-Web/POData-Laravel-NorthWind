@@ -24,5 +24,4 @@ class InventoryTransactionType extends Model
     {
         return $this->hasMany('App\Models\InventoryTransaction', 'transaction_type', 'id');
     }
-        
 }

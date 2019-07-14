@@ -77,5 +77,4 @@ class Order extends Model
     {
         return $this->hasMany('App\Models\InventoryTransaction', 'customer_order_id');
     }
-
 }

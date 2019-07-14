@@ -14,13 +14,11 @@ class StringModel extends Model
 
     protected $primaryKey = 'string_id';
 
-	public $timestamps = false;
+    public $timestamps = false;
 
     protected $fillable = [
         'string_data'
     ];
 
     protected $guarded = [];
-
-        
 }

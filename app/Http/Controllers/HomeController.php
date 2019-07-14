@@ -9,24 +9,23 @@ class HomeController extends Controller
 
     public function ProcessGet()
     {
-		$version     = "v0.0.1";
+        $version     = "v0.0.1";
         $url         = "";
         $requestBody = "";
-        $methodData  = Array(
+        $methodData  = array(
             "GET" => 0,
             "POST" => 0,
             "PUT" => 0,
             "PATCH" => 0,
             "DELETE" => 0
         );
-		$opt = "";
-        foreach($methodData as $tName=>$tSelected) {
+        $opt = "";
+        foreach ($methodData as $tName => $tSelected) {
                 $opt .= sprintf("<option value='%s' %s>%s</option>", $tName, ($tSelected == 1) ? "selected" : "", $tName);
         }
-		$url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
-		return view('home', ["opt" => $opt, "version" => $version, "url" =>$url
-			,"requestHeaderRaw"=>"","requestBody"=>"","rHeader"=>"","rData"=>"","rError"=>""]);
-
+        $url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
+        return view('home', ["opt" => $opt, "version" => $version, "url" =>$url
+            ,"requestHeaderRaw"=>"","requestBody"=>"","rHeader"=>"","rData"=>"","rError"=>""]);
     }
 
     public function ProcessPost()
@@ -34,7 +33,7 @@ class HomeController extends Controller
         $version     = "v0.0.1";
         $url         = "";
         $requestBody = "";
-        $methodData  = Array(
+        $methodData  = array(
             "GET" => 0,
             "POST" => 0,
             "PUT" => 0,
@@ -48,7 +47,7 @@ class HomeController extends Controller
             $methodData[$requestMethod] = 1;
             $requestBody                = $_POST['requestBody'];
             $requestHeaderRaw           = $_POST['requestHeader'];
-            $requestHeaders             = Array();
+            $requestHeaders             = array();
             $requestHeaderLines         = explode("\n", $requestHeaderRaw);
             foreach ($requestHeaderLines as $line) {
                 if (strpos($line, ":") !== false) {
@@ -73,12 +72,11 @@ class HomeController extends Controller
         } else {
             $requestHeaderRaw = "Content-Type: application/json\n";
         }
-		$opt = "";
-        foreach($methodData as $tName=>$tSelected) {
+        $opt = "";
+        foreach ($methodData as $tName => $tSelected) {
                 $opt .= sprintf("<option value='%s' %s>%s</option>", $tName, ($tSelected == 1) ? "selected" : "", $tName);
         }
-		$url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
-		return view('home', ['opt' => $opt, "version" => $version, "url" =>$url,"requestHeaderRaw"=>$requestHeaderRaw,"requestBody"=>$requestBody,"rHeader"=>$rHeader,"rData"=>$rData,"rError"=>$rError]);
-        
+        $url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
+        return view('home', ['opt' => $opt, "version" => $version, "url" =>$url,"requestHeaderRaw"=>$requestHeaderRaw,"requestBody"=>$requestBody,"rHeader"=>$rHeader,"rData"=>$rData,"rError"=>$rError]);
     }
 }
