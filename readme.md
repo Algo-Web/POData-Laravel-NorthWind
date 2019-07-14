@@ -1,27 +1,18 @@
-## Laravel PHP Framework
+## POData-Laravel-Northwind
 
-[![Build Status](https://travis-ci.org/Algo-Web/POData-example-Laravel.svg?branch=master)](https://travis-ci.org/Algo-Web/POData-example-Laravel)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This is a minimal Laravel 5.1 application to verify that the POData-Laravel package (https://github.com/AlgoWeb/POData-Laravel) actually does what it says on the tin and integrates with Laravel.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Thank you to Kyrylo Kostiukov (https://github.com/kirill533) for prodding me to get some very basic setup instructions written.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+0.  Clone out project.
+1.  Run *composer install*.
+2.  Copy .env.example to .env.
+3.  To get up and running as quickly as possible, alter the *DB_CONNECTION=mysql* line in .env to *DB_CONNECTION=sqlite*.  If you have another DB preference, add its credentials here.
+4.  Generate application key with *php artisan key:generate*.
+5.  Migrate and seed application with *php artisan migrate --seed*.
+6.  Serve application with *php artisan serve*.
+7.  Browse to *http://localhost:8000/odata.svc*.
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+POData-Laravel-Northwind is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
