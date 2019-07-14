@@ -34,6 +34,7 @@ class XMLMetadataTest extends TestCase
             [],
             [ "DataServiceVersion" => $version, "MaxDataServiceVersion" => $version]
         );
+        $this->assertEquals(200, $response->getStatusCode());
         $this->assertEquals($version, $response->headers->get("DataServiceVersion"));
         return $response;
     }
