@@ -1,8 +1,12 @@
 <?php
 namespace App\Http\Controllers;
 
+use AlgoWeb\PODataLaravel\Controllers\MetadataControllerTrait;
+
 class HomeController extends Controller
 {
+    use MetadataControllerTrait;
+
     public function ProcessGet()
     {
 		$version     = "v0.0.1";
