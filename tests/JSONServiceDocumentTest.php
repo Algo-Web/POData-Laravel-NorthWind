@@ -11,7 +11,7 @@ use JsonSchema\Constraints\Constraint;
 class JSONServiceDocumentTest extends TestCase
 {
 
-    public function GetServiceDocument($jsonLevel, $version)
+    public function getServiceDocument($jsonLevel, $version)
     {
         $this->markTestSkipped("We are not doing json yet");
 
@@ -49,10 +49,10 @@ class JSONServiceDocumentTest extends TestCase
         return $response;
     }
 
-    public function JsonRulesTest($rule, $jsonType, $odataVersion)
+    public function jsonRulesTest($rule, $jsonType, $odataVersion)
     {
         $rule = base64_decode($rule);
-        $response = $this->GetServiceDocument($jsonType, $odataVersion);
+        $response = $this->getServiceDocument($jsonType, $odataVersion);
         $content = $response->content();
         $validator = new JsonSchema\Validator;
 
@@ -64,31 +64,37 @@ class JSONServiceDocumentTest extends TestCase
             $message .= sprintf("[%s] %s\n", $error['property'], $error['message']);
         }
         $this->assertTrue($validator->isValid(), $message . "\n ValidationData: " . $rule);
-
-
     }
 
     /**
-     * @dataProvider JsonSchemaRulesProvider
+     * @dataProvider jsonSchemaRulesProvider
      */
     public function testJsonRules($rule, $jsonType, $odataVersions)
     {
         foreach ($odataVersions as $version) {
-            $this->JsonRulesTest($rule, $jsonType, $version);
+            $this->jsonRulesTest($rule, $jsonType, $version);
         }
     }
 
-    public function JsonSchemaRulesProvider()
+    public function jsonSchemaRulesProvider()
     {
         return [
-            'A data service SHOULD represent all available collections in a single EntitySet array. [2.2.6.3.12]'  => ["ew0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgICJkIjogew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogZmFsc2UsDQogICAgICAgICJ0eXBlIjogIm9iamVjdCIsDQogICAgICAgICJwcm9wZXJ0aWVzIiA6IHsNCiAgICAgICAgIkVudGl0eVNldHMiIDogew0KICAgICAgICAidHlwZSI6ICJhcnJheSINCiAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9", 'json',[1,2,3,4]],
-            'A service document in JSON must have at least two properties: odata.metadata and value in V3. [V4 5]' => ["ew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiOiAib2JqZWN0IiwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAib2RhdGEubWV0YWRhdGEiIDogew0KICAgICAgICAicmVxdWlyZWQiOnRydWUNCiAgICAgICAgfSwNCiAgICAgICAgInZhbHVlIiA6ew0KICAgICAgICAicmVxdWlyZWQiOnRydWV9DQogICAgICAgIH0NCiAgICAgICAgfQ==",'JsonLight',[3,4]],
-            'A service document in JSON is represented as a single JSON object. [V4 5]' => ["ICAgICAgICB7DQogICAgICAgICJhZGRpdGlvbmFsUHJvcGVydGllcyIgOiB0cnVlLA0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgIH0NCiAgICAgICAgfQ==" ,'JsonLight',[3,4]],
-            'A service document in JSON must have at least two properties; odata.context and value in V4.' => ["ew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiOiAib2JqZWN0IiwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAiQG9kYXRhLmNvbnRleHQiIDogew0KICAgICAgICAicmVxdWlyZWQiOnRydWUNCiAgICAgICAgfSwNCiAgICAgICAgInZhbHVlIiA6ew0KICAgICAgICAicmVxdWlyZWQiOnRydWV9DQogICAgICAgIH0NCiAgICAgICAgfQ==",'JsonLight',[4]],
-            'The value of the value property MUST be a JSON Array. [V4 5]' => ["ew0KICAgICAgICAidHlwZSIgOiAib2JqZWN0IiwNCiAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIiA6IHRydWUsDQogICAgICAgICJwcm9wZXJ0aWVzIiA6IHsNCiAgICAgICAgInZhbHVlIiA6IHsNCiAgICAgICAgInR5cGUiIDogImFycmF5IiwNCiAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIiA6IHRydWUsDQogICAgICAgICJyZXF1aXJlZCIgOiB0cnVlDQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9", 'JsonLight',[3,4]],
-            'Each element in the value array MUST be a Json object. [V4 5]' => ["ICAgICAgICB7DQogICAgICAgICJ0eXBlIiA6ICJvYmplY3QiLA0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAidmFsdWUiIDogew0KICAgICAgICAidHlwZSIgOiAiYXJyYXkiLA0KICAgICAgICAiaXRlbXMiIDogew0KICAgICAgICAidHlwZSIgOiAib2JqZWN0Ig0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9", 'JsonLight',[3,4]],
-            'Each element in the value array MUST be a JSON object with at least two name/value pairs, "name" and "url". [V4 5]' => ["ew0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAidmFsdWUiIDogew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiIDogImFycmF5IiwNCiAgICAgICAgInJlcXVpcmVkIiA6IHRydWUsDQogICAgICAgICJpdGVtcyIgOiB7DQogICAgICAgICJ0eXBlIiA6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgICJuYW1lIiA6IHsgInJlcXVpcmVkIiA6IHRydWV9LA0KICAgICAgICAidXJsIiA6IHsgInJlcXVpcmVkIiA6IHRydWV9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ==", 'JsonLight',[3,4]],
-            'Each element in the value array MAY contain a name/value pair with name title.' => ["ew0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAidmFsdWUiIDogew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiIDogImFycmF5IiwNCiAgICAgICAgInJlcXVpcmVkIiA6IHRydWUsDQogICAgICAgICJpdGVtcyIgOiB7DQogICAgICAgICJ0eXBlIiA6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgICJ0aXRsZSIgOiB7ICJyZXF1aXJlZCIgOiB0cnVlfQ0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIH0=",'JsonLight',[3,4]],
+            'A data service SHOULD represent all available collections in a single EntitySet array. [2.2.6.3.12]'
+            => ["ew0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgICJkIjogew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogZmFsc2UsDQogICAgICAgICJ0eXBlIjogIm9iamVjdCIsDQogICAgICAgICJwcm9wZXJ0aWVzIiA6IHsNCiAgICAgICAgIkVudGl0eVNldHMiIDogew0KICAgICAgICAidHlwZSI6ICJhcnJheSINCiAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9", 'json',[1,2,3,4]],
+            'A service document in JSON must have at least two properties: odata.metadata and value in V3. [V4 5]'
+            => ["ew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiOiAib2JqZWN0IiwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAib2RhdGEubWV0YWRhdGEiIDogew0KICAgICAgICAicmVxdWlyZWQiOnRydWUNCiAgICAgICAgfSwNCiAgICAgICAgInZhbHVlIiA6ew0KICAgICAgICAicmVxdWlyZWQiOnRydWV9DQogICAgICAgIH0NCiAgICAgICAgfQ==",'JsonLight',[3,4]],
+            'A service document in JSON is represented as a single JSON object. [V4 5]'
+            => ["ICAgICAgICB7DQogICAgICAgICJhZGRpdGlvbmFsUHJvcGVydGllcyIgOiB0cnVlLA0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgIH0NCiAgICAgICAgfQ==" ,'JsonLight',[3,4]],
+            'A service document in JSON must have at least two properties; odata.context and value in V4.'
+            => ["ew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiOiAib2JqZWN0IiwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAiQG9kYXRhLmNvbnRleHQiIDogew0KICAgICAgICAicmVxdWlyZWQiOnRydWUNCiAgICAgICAgfSwNCiAgICAgICAgInZhbHVlIiA6ew0KICAgICAgICAicmVxdWlyZWQiOnRydWV9DQogICAgICAgIH0NCiAgICAgICAgfQ==",'JsonLight',[4]],
+            'The value of the value property MUST be a JSON Array. [V4 5]'
+            => ["ew0KICAgICAgICAidHlwZSIgOiAib2JqZWN0IiwNCiAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIiA6IHRydWUsDQogICAgICAgICJwcm9wZXJ0aWVzIiA6IHsNCiAgICAgICAgInZhbHVlIiA6IHsNCiAgICAgICAgInR5cGUiIDogImFycmF5IiwNCiAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIiA6IHRydWUsDQogICAgICAgICJyZXF1aXJlZCIgOiB0cnVlDQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9", 'JsonLight',[3,4]],
+            'Each element in the value array MUST be a Json object. [V4 5]'
+            => ["ICAgICAgICB7DQogICAgICAgICJ0eXBlIiA6ICJvYmplY3QiLA0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAidmFsdWUiIDogew0KICAgICAgICAidHlwZSIgOiAiYXJyYXkiLA0KICAgICAgICAiaXRlbXMiIDogew0KICAgICAgICAidHlwZSIgOiAib2JqZWN0Ig0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9", 'JsonLight',[3,4]],
+            'Each element in the value array MUST be a JSON object with at least two name/value pairs, "name" and "url". [V4 5]'
+            => ["ew0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAidmFsdWUiIDogew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiIDogImFycmF5IiwNCiAgICAgICAgInJlcXVpcmVkIiA6IHRydWUsDQogICAgICAgICJpdGVtcyIgOiB7DQogICAgICAgICJ0eXBlIiA6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgICJuYW1lIiA6IHsgInJlcXVpcmVkIiA6IHRydWV9LA0KICAgICAgICAidXJsIiA6IHsgInJlcXVpcmVkIiA6IHRydWV9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ==", 'JsonLight',[3,4]],
+            'Each element in the value array MAY contain a name/value pair with name title.'
+            => ["ew0KICAgICAgICAidHlwZSI6ICJvYmplY3QiLA0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInByb3BlcnRpZXMiIDogew0KICAgICAgICAidmFsdWUiIDogew0KICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiIDogdHJ1ZSwNCiAgICAgICAgInR5cGUiIDogImFycmF5IiwNCiAgICAgICAgInJlcXVpcmVkIiA6IHRydWUsDQogICAgICAgICJpdGVtcyIgOiB7DQogICAgICAgICJ0eXBlIiA6ICJvYmplY3QiLA0KICAgICAgICAicHJvcGVydGllcyIgOiB7DQogICAgICAgICJ0aXRsZSIgOiB7ICJyZXF1aXJlZCIgOiB0cnVlfQ0KICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIH0=",'JsonLight',[3,4]],
         ];
     }
 
@@ -125,14 +131,15 @@ class JSONServiceDocumentTest extends TestCase
     }*/
 
 
-    public function HeadersTest($field, $Regex, $searchString, $odataVersion)
+    public function headersTest($field, $Regex, $searchString, $odataVersion)
     {
-        $response = $this->GetServiceDocument("verbose", $odataVersion);
+        $response = $this->getServiceDocument("verbose", $odataVersion);
         $fieldValue = $response->headers->get($field);
         if (null != $searchString) {
             $this->assertTrue(
                 str_contains($fieldValue, $searchString),
-                "could not locate search string: " . $searchString . " within Field: ". $field . " FieldValue: " . $fieldValue
+                "could not locate search string: " . $searchString . " within Field: ". $field
+                . " FieldValue: " . $fieldValue
             );
         }
         $this->assertEquals(
@@ -144,20 +151,21 @@ class JSONServiceDocumentTest extends TestCase
 
 
     /**
-     * @dataProvider RegExHeaderRulesProvider
+     * @dataProvider regExHeaderRulesProvider
      */
 
     public function testHeaders($field, $Regex, $searchString, $odataVersions)
     {
         foreach ($odataVersions as $version) {
-            $this->HeadersTest($field, $Regex, $searchString, $version);
+            $this->headersTest($field, $Regex, $searchString, $version);
         }
     }
 
-    public function RegExHeaderRulesProvider()
+    public function regExHeaderRulesProvider()
     {
         return [
-            'JSON Service Documents MUST be identified using the "application/json" media type. [2.2.3.7.1]' => ["Content-Type", "/.*application\/json.*/", "application/json" ,[1,2,3,4]]
+            'JSON Service Documents MUST be identified using the "application/json" media type. [2.2.3.7.1]'
+            => ["Content-Type", "/.*application\/json.*/", "application/json" ,[1,2,3,4]]
         ];
     }
 }

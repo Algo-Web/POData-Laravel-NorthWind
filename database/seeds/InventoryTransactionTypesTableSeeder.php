@@ -12,33 +12,31 @@ class InventoryTransactionTypesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('inventory_transaction_types')->delete();
         
-        \DB::table('inventory_transaction_types')->insert(array (
-            0 => 
-            array (
+        \DB::table('inventory_transaction_types')->insert(
+            [
+            0 =>
+            [
                 'id' => 1,
                 'type_name' => 'Purchased',
-            ),
-            1 => 
-            array (
+            ],
+            1 =>
+            [
                 'id' => 2,
                 'type_name' => 'Sold',
-            ),
-            2 => 
-            array (
+            ],
+            2 =>
+            [
                 'id' => 3,
                 'type_name' => 'On Hold',
-            ),
-            3 => 
-            array (
+            ],
+            3 =>
+            [
                 'id' => 4,
                 'type_name' => 'Waste',
-            ),
-        ));
-        
-        
+            ],
+            ]
+        );
     }
 }

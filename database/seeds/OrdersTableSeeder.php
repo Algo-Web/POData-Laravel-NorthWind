@@ -12,13 +12,12 @@ class OrdersTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('orders')->delete();
         
-        \DB::table('orders')->insert(array (
-            0 => 
-            array (
+        \DB::table('orders')->insert(
+            [
+            0 =>
+            [
                 'id' => 30,
                 'employee_id' => 9,
                 'customer_id' => 27,
@@ -35,13 +34,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-01-15 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            1 => 
-            array (
+            ],
+            1 =>
+            [
                 'id' => 31,
                 'employee_id' => 3,
                 'customer_id' => 4,
@@ -58,13 +57,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-01-20 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            2 => 
-            array (
+            ],
+            2 =>
+            [
                 'id' => 32,
                 'employee_id' => 4,
                 'customer_id' => 12,
@@ -81,13 +80,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-01-22 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            3 => 
-            array (
+            ],
+            3 =>
+            [
                 'id' => 33,
                 'employee_id' => 6,
                 'customer_id' => 8,
@@ -104,13 +103,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-01-30 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            4 => 
-            array (
+            ],
+            4 =>
+            [
                 'id' => 34,
                 'employee_id' => 9,
                 'customer_id' => 4,
@@ -127,13 +126,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-02-06 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            5 => 
-            array (
+            ],
+            5 =>
+            [
                 'id' => 35,
                 'employee_id' => 3,
                 'customer_id' => 29,
@@ -150,13 +149,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-02-10 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            6 => 
-            array (
+            ],
+            6 =>
+            [
                 'id' => 36,
                 'employee_id' => 4,
                 'customer_id' => 3,
@@ -173,13 +172,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Cash',
                 'paid_date' => '2006-02-23 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            7 => 
-            array (
+            ],
+            7 =>
+            [
                 'id' => 37,
                 'employee_id' => 8,
                 'customer_id' => 6,
@@ -196,13 +195,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-03-06 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            8 => 
-            array (
+            ],
+            8 =>
+            [
                 'id' => 38,
                 'employee_id' => 9,
                 'customer_id' => 28,
@@ -219,13 +218,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-03-10 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            9 => 
-            array (
+            ],
+            9 =>
+            [
                 'id' => 39,
                 'employee_id' => 3,
                 'customer_id' => 8,
@@ -242,13 +241,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-03-22 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            10 => 
-            array (
+            ],
+            10 =>
+            [
                 'id' => 40,
                 'employee_id' => 4,
                 'customer_id' => 10,
@@ -265,19 +264,19 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-03-24 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            11 => 
-            array (
+            ],
+            11 =>
+            [
                 'id' => 41,
                 'employee_id' => 1,
                 'customer_id' => 7,
                 'order_date' => '2006-03-24 00:00:00',
-                'shipped_date' => NULL,
-                'shipper_id' => NULL,
+                'shipped_date' => null,
+                'shipper_id' => null,
                 'ship_name' => 'Ming-Yang Xie',
                 'ship_address' => '123 7th Street',
                 'ship_city' => 'Boise',
@@ -286,15 +285,15 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            12 => 
-            array (
+            ],
+            12 =>
+            [
                 'id' => 42,
                 'employee_id' => 1,
                 'customer_id' => 10,
@@ -309,20 +308,20 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 2,
-            ),
-            13 => 
-            array (
+            ],
+            13 =>
+            [
                 'id' => 43,
                 'employee_id' => 1,
                 'customer_id' => 11,
                 'order_date' => '2006-03-24 00:00:00',
-                'shipped_date' => NULL,
+                'shipped_date' => null,
                 'shipper_id' => 3,
                 'ship_name' => 'Peter Krschne',
                 'ship_address' => '123 11th Street',
@@ -332,21 +331,21 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            14 => 
-            array (
+            ],
+            14 =>
+            [
                 'id' => 44,
                 'employee_id' => 1,
                 'customer_id' => 1,
                 'order_date' => '2006-03-24 00:00:00',
-                'shipped_date' => NULL,
-                'shipper_id' => NULL,
+                'shipped_date' => null,
+                'shipper_id' => null,
                 'ship_name' => 'Anna Bedecs',
                 'ship_address' => '123 1st Street',
                 'ship_city' => 'Seattle',
@@ -355,15 +354,15 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            15 => 
-            array (
+            ],
+            15 =>
+            [
                 'id' => 45,
                 'employee_id' => 1,
                 'customer_id' => 28,
@@ -380,13 +379,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-04-07 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            16 => 
-            array (
+            ],
+            16 =>
+            [
                 'id' => 46,
                 'employee_id' => 7,
                 'customer_id' => 9,
@@ -403,13 +402,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            17 => 
-            array (
+            ],
+            17 =>
+            [
                 'id' => 47,
                 'employee_id' => 6,
                 'customer_id' => 6,
@@ -426,13 +425,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-04-08 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            18 => 
-            array (
+            ],
+            18 =>
+            [
                 'id' => 48,
                 'employee_id' => 4,
                 'customer_id' => 8,
@@ -449,13 +448,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            19 => 
-            array (
+            ],
+            19 =>
+            [
                 'id' => 50,
                 'employee_id' => 9,
                 'customer_id' => 25,
@@ -472,13 +471,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Cash',
                 'paid_date' => '2006-04-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            20 => 
-            array (
+            ],
+            20 =>
+            [
                 'id' => 51,
                 'employee_id' => 9,
                 'customer_id' => 26,
@@ -495,13 +494,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-04-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            21 => 
-            array (
+            ],
+            21 =>
+            [
                 'id' => 55,
                 'employee_id' => 1,
                 'customer_id' => 29,
@@ -518,13 +517,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            22 => 
-            array (
+            ],
+            22 =>
+            [
                 'id' => 56,
                 'employee_id' => 2,
                 'customer_id' => 6,
@@ -541,13 +540,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-03 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            23 => 
-            array (
+            ],
+            23 =>
+            [
                 'id' => 57,
                 'employee_id' => 9,
                 'customer_id' => 27,
@@ -564,13 +563,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-22 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            24 => 
-            array (
+            ],
+            24 =>
+            [
                 'id' => 58,
                 'employee_id' => 3,
                 'customer_id' => 4,
@@ -587,13 +586,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-04-22 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            25 => 
-            array (
+            ],
+            25 =>
+            [
                 'id' => 59,
                 'employee_id' => 4,
                 'customer_id' => 12,
@@ -610,13 +609,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-04-22 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            26 => 
-            array (
+            ],
+            26 =>
+            [
                 'id' => 60,
                 'employee_id' => 6,
                 'customer_id' => 8,
@@ -633,13 +632,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-04-30 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            27 => 
-            array (
+            ],
+            27 =>
+            [
                 'id' => 61,
                 'employee_id' => 9,
                 'customer_id' => 4,
@@ -656,13 +655,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-07 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            28 => 
-            array (
+            ],
+            28 =>
+            [
                 'id' => 62,
                 'employee_id' => 3,
                 'customer_id' => 29,
@@ -679,13 +678,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-04-12 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            29 => 
-            array (
+            ],
+            29 =>
+            [
                 'id' => 63,
                 'employee_id' => 4,
                 'customer_id' => 3,
@@ -702,13 +701,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Cash',
                 'paid_date' => '2006-04-25 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            30 => 
-            array (
+            ],
+            30 =>
+            [
                 'id' => 64,
                 'employee_id' => 8,
                 'customer_id' => 6,
@@ -725,13 +724,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-05-09 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            31 => 
-            array (
+            ],
+            31 =>
+            [
                 'id' => 65,
                 'employee_id' => 9,
                 'customer_id' => 28,
@@ -748,13 +747,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-05-11 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            32 => 
-            array (
+            ],
+            32 =>
+            [
                 'id' => 66,
                 'employee_id' => 3,
                 'customer_id' => 8,
@@ -771,13 +770,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-05-24 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            33 => 
-            array (
+            ],
+            33 =>
+            [
                 'id' => 67,
                 'employee_id' => 4,
                 'customer_id' => 10,
@@ -794,19 +793,19 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-05-24 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            34 => 
-            array (
+            ],
+            34 =>
+            [
                 'id' => 68,
                 'employee_id' => 1,
                 'customer_id' => 7,
                 'order_date' => '2006-05-24 00:00:00',
-                'shipped_date' => NULL,
-                'shipper_id' => NULL,
+                'shipped_date' => null,
+                'shipper_id' => null,
                 'ship_name' => 'Ming-Yang Xie',
                 'ship_address' => '123 7th Street',
                 'ship_city' => 'Boise',
@@ -815,20 +814,20 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            35 => 
-            array (
+            ],
+            35 =>
+            [
                 'id' => 69,
                 'employee_id' => 1,
                 'customer_id' => 10,
                 'order_date' => '2006-05-24 00:00:00',
-                'shipped_date' => NULL,
+                'shipped_date' => null,
                 'shipper_id' => 1,
                 'ship_name' => 'Roland Wacker',
                 'ship_address' => '123 10th Street',
@@ -838,20 +837,20 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            36 => 
-            array (
+            ],
+            36 =>
+            [
                 'id' => 70,
                 'employee_id' => 1,
                 'customer_id' => 11,
                 'order_date' => '2006-05-24 00:00:00',
-                'shipped_date' => NULL,
+                'shipped_date' => null,
                 'shipper_id' => 3,
                 'ship_name' => 'Peter Krschne',
                 'ship_address' => '123 11th Street',
@@ -861,20 +860,20 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            37 => 
-            array (
+            ],
+            37 =>
+            [
                 'id' => 71,
                 'employee_id' => 1,
                 'customer_id' => 1,
                 'order_date' => '2006-05-24 00:00:00',
-                'shipped_date' => NULL,
+                'shipped_date' => null,
                 'shipper_id' => 3,
                 'ship_name' => 'Anna Bedecs',
                 'ship_address' => '123 1st Street',
@@ -884,15 +883,15 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            38 => 
-            array (
+            ],
+            38 =>
+            [
                 'id' => 72,
                 'employee_id' => 1,
                 'customer_id' => 28,
@@ -909,13 +908,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-06-07 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            39 => 
-            array (
+            ],
+            39 =>
+            [
                 'id' => 73,
                 'employee_id' => 7,
                 'customer_id' => 9,
@@ -932,13 +931,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-06-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            40 => 
-            array (
+            ],
+            40 =>
+            [
                 'id' => 74,
                 'employee_id' => 6,
                 'customer_id' => 6,
@@ -955,13 +954,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-06-08 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            41 => 
-            array (
+            ],
+            41 =>
+            [
                 'id' => 75,
                 'employee_id' => 4,
                 'customer_id' => 8,
@@ -978,13 +977,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-06-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            42 => 
-            array (
+            ],
+            42 =>
+            [
                 'id' => 76,
                 'employee_id' => 9,
                 'customer_id' => 25,
@@ -1001,13 +1000,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Cash',
                 'paid_date' => '2006-06-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            43 => 
-            array (
+            ],
+            43 =>
+            [
                 'id' => 77,
                 'employee_id' => 9,
                 'customer_id' => 26,
@@ -1024,13 +1023,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Credit Card',
                 'paid_date' => '2006-06-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            44 => 
-            array (
+            ],
+            44 =>
+            [
                 'id' => 78,
                 'employee_id' => 1,
                 'customer_id' => 29,
@@ -1047,13 +1046,13 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-06-05 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            45 => 
-            array (
+            ],
+            45 =>
+            [
                 'id' => 79,
                 'employee_id' => 2,
                 'customer_id' => 6,
@@ -1070,19 +1069,19 @@ class OrdersTableSeeder extends Seeder
                 'taxes' => '0.0000',
                 'payment_type' => 'Check',
                 'paid_date' => '2006-06-23 00:00:00',
-                'notes' => NULL,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 3,
-            ),
-            46 => 
-            array (
+            ],
+            46 =>
+            [
                 'id' => 80,
                 'employee_id' => 2,
                 'customer_id' => 4,
                 'order_date' => '2006-04-25 17:03:55',
-                'shipped_date' => NULL,
-                'shipper_id' => NULL,
+                'shipped_date' => null,
+                'shipper_id' => null,
                 'ship_name' => 'Christina Lee',
                 'ship_address' => '123 4th Street',
                 'ship_city' => 'New York',
@@ -1091,21 +1090,21 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-            47 => 
-            array (
+            ],
+            47 =>
+            [
                 'id' => 81,
                 'employee_id' => 2,
                 'customer_id' => 3,
                 'order_date' => '2006-04-25 17:26:53',
-                'shipped_date' => NULL,
-                'shipper_id' => NULL,
+                'shipped_date' => null,
+                'shipper_id' => null,
                 'ship_name' => 'Thomas Axen',
                 'ship_address' => '123 3rd Street',
                 'ship_city' => 'Los Angelas',
@@ -1114,15 +1113,14 @@ class OrdersTableSeeder extends Seeder
                 'ship_country_region' => 'USA',
                 'shipping_fee' => '0.0000',
                 'taxes' => '0.0000',
-                'payment_type' => NULL,
-                'paid_date' => NULL,
-                'notes' => NULL,
+                'payment_type' => null,
+                'paid_date' => null,
+                'notes' => null,
                 'tax_rate' => 0,
-                'tax_status_id' => NULL,
+                'tax_status_id' => null,
                 'status_id' => 0,
-            ),
-        ));
-        
-        
+            ],
+            ]
+        );
     }
 }

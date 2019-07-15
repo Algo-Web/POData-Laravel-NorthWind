@@ -12,43 +12,41 @@ class OrderDetailsStatusTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('order_details_status')->delete();
         
-        \DB::table('order_details_status')->insert(array (
-            0 => 
-            array (
+        \DB::table('order_details_status')->insert(
+            [
+            0 =>
+            [
                 'id' => 0,
                 'status_name' => 'None',
-            ),
-            1 => 
-            array (
+            ],
+            1 =>
+            [
                 'id' => 1,
                 'status_name' => 'Allocated',
-            ),
-            2 => 
-            array (
+            ],
+            2 =>
+            [
                 'id' => 2,
                 'status_name' => 'Invoiced',
-            ),
-            3 => 
-            array (
+            ],
+            3 =>
+            [
                 'id' => 3,
                 'status_name' => 'Shipped',
-            ),
-            4 => 
-            array (
+            ],
+            4 =>
+            [
                 'id' => 4,
                 'status_name' => 'On Order',
-            ),
-            5 => 
-            array (
+            ],
+            5 =>
+            [
                 'id' => 5,
                 'status_name' => 'No Stock',
-            ),
-        ));
-        
-        
+            ],
+            ]
+        );
     }
 }

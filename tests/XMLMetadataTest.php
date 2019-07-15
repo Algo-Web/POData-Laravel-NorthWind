@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 class XMLMetadataTest extends TestCase
 {
 
-    public function GetMetadataDocument($version)
+    public function getMetadataDocument($version)
     {
         switch ($version) {
             case 1:
@@ -43,7 +43,7 @@ class XMLMetadataTest extends TestCase
     {
         $this->markTestSkipped("Odata Version not implomented yet");
 
-        $response = $this->GetMetadataDocument(1);
+        $response = $this->getMetadataDocument(1);
         $xml = new DOMDocument();
         $xml->loadXML($response->content());
         $this->assertEquals("edmx:Edmx", $xml->firstChild->nodeName);
@@ -72,7 +72,7 @@ class XMLMetadataTest extends TestCase
     {
         $this->markTestSkipped("Odata Version not implomented yet");
 
-        $response = $this->GetMetadataDocument(2);
+        $response = $this->getMetadataDocument(2);
         $xml = new DOMDocument();
         $xml->loadXML($response->content());
         $this->assertEquals("edmx:Edmx", $xml->firstChild->nodeName);
@@ -100,7 +100,7 @@ class XMLMetadataTest extends TestCase
     {
         $this->markTestSkipped("test buggy");
 
-        $response = $this->GetMetadataDocument(3);
+        $response = $this->getMetadataDocument(3);
         $xml = new DOMDocument();
         $xml->loadXML($response->content());
         $this->assertEquals("edmx:Edmx", $xml->firstChild->nodeName);
@@ -128,7 +128,7 @@ class XMLMetadataTest extends TestCase
     {
         $this->markTestSkipped("Odata Version not implomented yet");
 
-        $response = $this->GetMetadataDocument(4);
+        $response = $this->getMetadataDocument(4);
         $xml = new DOMDocument();
         $xml->loadXML($response->content());
         $this->assertEquals("edmx:Edmx", $xml->firstChild->nodeName);
@@ -154,7 +154,7 @@ class XMLMetadataTest extends TestCase
 
     public function XMLRulesXSLTRNGTest($rule, $odataVersion)
     {
-        $response = $this->GetMetadataDocument($odataVersion);
+        $response = $this->getMetadataDocument($odataVersion);
 
         $xml = new DOMDocument();
         $xml->loadXML($response->content());
@@ -202,9 +202,9 @@ class XMLMetadataTest extends TestCase
     }
 
 
-    public function HeadersTest($field, $Regex, $searchString, $odataVersion)
+    public function headersTest($field, $Regex, $searchString, $odataVersion)
     {
-        $response = $this->GetMetadataDocument($odataVersion);
+        $response = $this->getMetadataDocument($odataVersion);
         $fieldValue = $response->headers->get($field);
         if (null != $searchString) {
             $this->assertTrue(
@@ -221,7 +221,7 @@ class XMLMetadataTest extends TestCase
 
 
     /**
-     * @dataProvider RegExHeaderRulesProvider
+     * @dataProvider regExHeaderRulesProvider
      */
     public function testHeaders($field, $Regex, $searchString, $odataVersions)
     {
@@ -229,14 +229,15 @@ class XMLMetadataTest extends TestCase
             if (3 != $version) {
                 continue;
             }
-            $this->HeadersTest($field, $Regex, $searchString, $version);
+            $this->headersTest($field, $Regex, $searchString, $version);
         }
     }
 
-    public function RegExHeaderRulesProvider()
+    public function regExHeaderRulesProvider()
     {
         return [
-            'AtomPub Service Documents MUST be identified with the \'application/xml\' Content Type.' => ["Content-Type", "/.*application\/xml.*/", "application/xml" ,[1,2,3,4]],
+            'AtomPub Service Documents MUST be identified with the \'application/xml\' Content Type.'
+            => ["Content-Type", "/.*application\/xml.*/", "application/xml" ,[1,2,3,4]],
         ];
     }
 }

@@ -12,23 +12,21 @@ class OrdersTaxStatusTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('orders_tax_status')->delete();
         
-        \DB::table('orders_tax_status')->insert(array (
-            0 => 
-            array (
+        \DB::table('orders_tax_status')->insert(
+            [
+            0 =>
+            [
                 'id' => 0,
                 'tax_status_name' => 'Tax Exempt',
-            ),
-            1 => 
-            array (
+            ],
+            1 =>
+            [
                 'id' => 1,
                 'tax_status_name' => 'Taxable',
-            ),
-        ));
-        
-        
+            ],
+            ]
+        );
     }
 }
