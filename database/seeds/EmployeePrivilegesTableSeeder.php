@@ -12,8 +12,6 @@ class EmployeePrivilegesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('employee_privileges')->delete();
         
         \DB::table('employee_privileges')->insert(array (

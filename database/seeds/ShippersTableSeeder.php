@@ -12,8 +12,6 @@ class ShippersTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('shippers')->delete();
         
         \DB::table('shippers')->insert(array (

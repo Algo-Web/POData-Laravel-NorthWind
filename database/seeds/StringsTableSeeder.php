@@ -12,8 +12,6 @@ class StringsTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('strings')->delete();
         
         \DB::table('strings')->insert(array (
@@ -65,7 +63,8 @@ class StringsTableSeeder extends Seeder
             9 =>
             array (
                 'string_id' => 11,
-                'string_data' => 'Restocking will generate purchase orders for all products below desired inventory levels.  Do you want to continue?',
+                'string_data' => 'Restocking will generate purchase orders for all products below desired'
+                                 .' inventory levels.  Do you want to continue?',
             ),
             10 =>
             array (
@@ -135,7 +134,8 @@ class StringsTableSeeder extends Seeder
             23 =>
             array (
                 'string_id' => 26,
-                'string_data' => 'Purchase orders were successfully submitted for | products.  Do you want to view the restocking report?',
+                'string_data' => 'Purchase orders were successfully submitted for | products.  Do you want'
+                                 .' to view the restocking report?',
             ),
             24 =>
             array (
@@ -160,12 +160,14 @@ class StringsTableSeeder extends Seeder
             28 =>
             array (
                 'string_id' => 31,
-                'string_data' => 'You cannot modify quantity for purchased product already received or posted to inventory.',
+                'string_data' => 'You cannot modify quantity for purchased product already received or'
+                                 .' posted to inventory.',
             ),
             29 =>
             array (
                 'string_id' => 32,
-                'string_data' => 'You cannot modify price for purchased product already received or posted to inventory.',
+                'string_data' => 'You cannot modify price for purchased product already received or'
+                                 .' posted to inventory.',
             ),
             30 =>
             array (
@@ -250,7 +252,8 @@ class StringsTableSeeder extends Seeder
             46 =>
             array (
                 'string_id' => 49,
-                'string_data' => 'Canceling an order will permanently delete the order.  Are you sure you want to cancel?',
+                'string_data' => 'Canceling an order will permanently delete the order.'
+                                 .'  Are you sure you want to cancel?',
             ),
             47 =>
             array (
@@ -275,7 +278,8 @@ class StringsTableSeeder extends Seeder
             51 =>
             array (
                 'string_id' => 104,
-                'string_data' => 'Shipping information is not complete.  Please specify all shipping information and try again.',
+                'string_data' => 'Shipping information is not complete.  Please specify all'
+                                 .' shipping information and try again.',
             ),
             52 =>
             array (
@@ -310,7 +314,8 @@ class StringsTableSeeder extends Seeder
             58 =>
             array (
                 'string_id' => 111,
-            'string_data' => 'There was an error attempting to restock inventory levels.  | product(s) were successfully restocked.',
+            'string_data' => 'There was an error attempting to restock inventory levels.  | product(s)'
+                             .' were successfully restocked.',
             ),
             59 =>
             array (

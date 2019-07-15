@@ -12,8 +12,6 @@ class EmployeesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('employees')->delete();
         
         \DB::table('employees')->insert(array (
@@ -56,7 +54,8 @@ class EmployeesTableSeeder extends Seeder
                 'zip_postal_code' => '99999',
                 'country_region' => 'USA',
                 'web_page' => 'http://northwindtraders.com#http://northwindtraders.com/#',
-                'notes' => 'Joined the company as a sales representative, was promoted to sales manager and was then named vice president of sales.',
+                'notes' => 'Joined the company as a sales representative, was promoted to sales manager and was'
+                           .' then named vice president of sales.',
                 'attachments' => '',
             ),
             2 =>
@@ -119,7 +118,8 @@ class EmployeesTableSeeder extends Seeder
                 'zip_postal_code' => '99999',
                 'country_region' => 'USA',
                 'web_page' => 'http://northwindtraders.com#http://northwindtraders.com/#',
-                'notes' => 'Joined the company as a sales representative and was promoted to sales manager.  Fluent in French.',
+                'notes' => 'Joined the company as a sales representative and was promoted to sales manager.'
+                           .'  Fluent in French.',
                 'attachments' => '',
             ),
             5 =>

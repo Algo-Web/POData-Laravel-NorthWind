@@ -12,8 +12,6 @@ class InvoicesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('invoices')->delete();
         
         \DB::table('invoices')->insert(array (

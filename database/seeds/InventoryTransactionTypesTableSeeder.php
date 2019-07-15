@@ -12,8 +12,6 @@ class InventoryTransactionTypesTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('inventory_transaction_types')->delete();
         
         \DB::table('inventory_transaction_types')->insert(array (

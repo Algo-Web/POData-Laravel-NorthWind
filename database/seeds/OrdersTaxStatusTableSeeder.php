@@ -12,8 +12,6 @@ class OrdersTaxStatusTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('orders_tax_status')->delete();
         
         \DB::table('orders_tax_status')->insert(array (

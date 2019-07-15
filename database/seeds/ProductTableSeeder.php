@@ -12,8 +12,6 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('product')->delete();
         
         \DB::table('product')->insert(array (

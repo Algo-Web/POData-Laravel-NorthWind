@@ -12,8 +12,6 @@ class CustomersTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('customers')->delete();
         
         \DB::table('customers')->insert(array (

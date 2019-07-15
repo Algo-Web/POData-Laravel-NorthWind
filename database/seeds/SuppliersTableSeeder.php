@@ -12,8 +12,6 @@ class SuppliersTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('suppliers')->delete();
         
         \DB::table('suppliers')->insert(array (

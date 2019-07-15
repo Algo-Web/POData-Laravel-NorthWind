@@ -12,8 +12,6 @@ class SalesReportsTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('sales_reports')->delete();
         
         \DB::table('sales_reports')->insert(array (

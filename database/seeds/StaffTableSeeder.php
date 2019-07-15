@@ -12,8 +12,6 @@ class StaffTableSeeder extends Seeder
      */
     public function run()
     {
-        
-
         \DB::table('staff')->delete();
         
         \DB::table('staff')->insert(array (
