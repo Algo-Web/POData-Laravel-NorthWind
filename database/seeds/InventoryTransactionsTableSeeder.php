@@ -17,7 +17,7 @@ class InventoryTransactionsTableSeeder extends Seeder
         \DB::table('inventory_transactions')->delete();
         
         \DB::table('inventory_transactions')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 35,
                 'transaction_type' => 1,
@@ -25,11 +25,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:02:28',
                 'product_id' => 80,
                 'quantity' => 75,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 36,
                 'transaction_type' => 1,
@@ -37,11 +37,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:02:48',
                 'product_id' => 72,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 37,
                 'transaction_type' => 1,
@@ -49,11 +49,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:03:04',
                 'product_id' => 52,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 38,
                 'transaction_type' => 1,
@@ -61,11 +61,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:03:09',
                 'product_id' => 56,
                 'quantity' => 120,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 39,
                 'transaction_type' => 1,
@@ -73,11 +73,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:03:14',
                 'product_id' => 57,
                 'quantity' => 80,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 40,
                 'transaction_type' => 1,
@@ -85,11 +85,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:03:40',
                 'product_id' => 6,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 41,
                 'transaction_type' => 1,
@@ -97,11 +97,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:03:47',
                 'product_id' => 7,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 42,
                 'transaction_type' => 1,
@@ -109,11 +109,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:03:54',
                 'product_id' => 8,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 43,
                 'transaction_type' => 1,
@@ -121,11 +121,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:02',
                 'product_id' => 14,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 44,
                 'transaction_type' => 1,
@@ -133,11 +133,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:07',
                 'product_id' => 17,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 45,
                 'transaction_type' => 1,
@@ -145,11 +145,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:12',
                 'product_id' => 19,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 46,
                 'transaction_type' => 1,
@@ -157,11 +157,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:17',
                 'product_id' => 20,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 47,
                 'transaction_type' => 1,
@@ -169,11 +169,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:20',
                 'product_id' => 21,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 48,
                 'transaction_type' => 1,
@@ -181,11 +181,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:24',
                 'product_id' => 40,
                 'quantity' => 120,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 49,
                 'transaction_type' => 1,
@@ -193,11 +193,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:28',
                 'product_id' => 41,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 50,
                 'transaction_type' => 1,
@@ -205,11 +205,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:31',
                 'product_id' => 48,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 51,
                 'transaction_type' => 1,
@@ -217,11 +217,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:38',
                 'product_id' => 51,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 52,
                 'transaction_type' => 1,
@@ -229,11 +229,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:41',
                 'product_id' => 74,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 53,
                 'transaction_type' => 1,
@@ -241,11 +241,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:04:45',
                 'product_id' => 77,
                 'quantity' => 60,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 54,
                 'transaction_type' => 1,
@@ -253,11 +253,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:07',
                 'product_id' => 3,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 55,
                 'transaction_type' => 1,
@@ -265,11 +265,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:11',
                 'product_id' => 4,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 56,
                 'transaction_type' => 1,
@@ -277,11 +277,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:14',
                 'product_id' => 5,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 57,
                 'transaction_type' => 1,
@@ -289,11 +289,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:26',
                 'product_id' => 65,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 58,
                 'transaction_type' => 1,
@@ -301,11 +301,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:32',
                 'product_id' => 66,
                 'quantity' => 80,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 59,
                 'transaction_type' => 1,
@@ -313,11 +313,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:47',
                 'product_id' => 1,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 60,
                 'transaction_type' => 1,
@@ -325,11 +325,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:05:51',
                 'product_id' => 34,
                 'quantity' => 60,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 61,
                 'transaction_type' => 1,
@@ -337,11 +337,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:06:00',
                 'product_id' => 43,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 62,
                 'transaction_type' => 1,
@@ -349,11 +349,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:06:03',
                 'product_id' => 81,
                 'quantity' => 125,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 63,
                 'transaction_type' => 2,
@@ -361,11 +361,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 11:03:00',
                 'product_id' => 80,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 64,
                 'transaction_type' => 2,
@@ -373,11 +373,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:08:59',
                 'product_id' => 7,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 65,
                 'transaction_type' => 2,
@@ -385,11 +385,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:08:59',
                 'product_id' => 51,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 66,
                 'transaction_type' => 2,
@@ -397,11 +397,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:08:59',
                 'product_id' => 80,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 67,
                 'transaction_type' => 2,
@@ -409,11 +409,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:10:27',
                 'product_id' => 1,
                 'quantity' => 15,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 68,
                 'transaction_type' => 2,
@@ -421,11 +421,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-22 16:10:27',
                 'product_id' => 43,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 69,
                 'transaction_type' => 2,
@@ -433,11 +433,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 11:00:55',
                 'product_id' => 19,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 70,
                 'transaction_type' => 2,
@@ -445,11 +445,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:59:41',
                 'product_id' => 48,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 71,
                 'transaction_type' => 2,
@@ -457,11 +457,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:57:38',
                 'product_id' => 8,
                 'quantity' => 17,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 72,
                 'transaction_type' => 1,
@@ -469,11 +469,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:41:30',
                 'product_id' => 81,
                 'quantity' => 200,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 73,
                 'transaction_type' => 2,
@@ -481,11 +481,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:41:42',
                 'product_id' => 81,
                 'quantity' => 200,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #40',
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 74,
                 'transaction_type' => 1,
@@ -493,11 +493,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:53:13',
                 'product_id' => 48,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 75,
                 'transaction_type' => 2,
@@ -505,11 +505,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:55:46',
                 'product_id' => 48,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #39',
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 76,
                 'transaction_type' => 1,
@@ -517,11 +517,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:53:36',
                 'product_id' => 43,
                 'quantity' => 300,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 77,
                 'transaction_type' => 2,
@@ -529,11 +529,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:56:57',
                 'product_id' => 43,
                 'quantity' => 300,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #38',
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 78,
                 'transaction_type' => 1,
@@ -541,11 +541,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:54:04',
                 'product_id' => 41,
                 'quantity' => 200,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 79,
                 'transaction_type' => 2,
@@ -553,11 +553,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:58:40',
                 'product_id' => 41,
                 'quantity' => 200,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #36',
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 80,
                 'transaction_type' => 1,
@@ -565,11 +565,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:54:33',
                 'product_id' => 19,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 81,
                 'transaction_type' => 2,
@@ -577,11 +577,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 11:02:02',
                 'product_id' => 19,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #33',
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 82,
                 'transaction_type' => 1,
@@ -589,11 +589,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 10:54:58',
                 'product_id' => 34,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 83,
                 'transaction_type' => 2,
@@ -601,11 +601,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 11:03:00',
                 'product_id' => 34,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #30',
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 84,
                 'transaction_type' => 2,
@@ -613,11 +613,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:41:14',
                 'product_id' => 6,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 85,
                 'transaction_type' => 2,
@@ -625,11 +625,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:41:14',
                 'product_id' => 4,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 86,
                 'transaction_type' => 3,
@@ -637,11 +637,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 14:49:16',
                 'product_id' => 80,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 87,
                 'transaction_type' => 3,
@@ -649,11 +649,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 14:49:20',
                 'product_id' => 81,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 88,
                 'transaction_type' => 3,
@@ -661,11 +661,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 14:50:09',
                 'product_id' => 1,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 89,
                 'transaction_type' => 3,
@@ -673,11 +673,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 14:50:14',
                 'product_id' => 43,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 90,
                 'transaction_type' => 3,
@@ -685,11 +685,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-24 14:50:18',
                 'product_id' => 81,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 91,
                 'transaction_type' => 2,
@@ -697,11 +697,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:09:24',
                 'product_id' => 40,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 92,
                 'transaction_type' => 2,
@@ -709,11 +709,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:06:56',
                 'product_id' => 21,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 93,
                 'transaction_type' => 2,
@@ -721,11 +721,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:06:13',
                 'product_id' => 5,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 94,
                 'transaction_type' => 2,
@@ -733,11 +733,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:06:13',
                 'product_id' => 41,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 95,
                 'transaction_type' => 2,
@@ -745,11 +745,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:06:13',
                 'product_id' => 40,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 96,
                 'transaction_type' => 3,
@@ -757,11 +757,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-30 16:46:34',
                 'product_id' => 34,
                 'quantity' => 12,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 97,
                 'transaction_type' => 3,
@@ -769,11 +769,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-30 17:23:27',
                 'product_id' => 34,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 98,
                 'transaction_type' => 3,
@@ -781,11 +781,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-03-30 17:24:33',
                 'product_id' => 34,
                 'quantity' => 1,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 99,
                 'transaction_type' => 2,
@@ -793,11 +793,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-03 13:50:15',
                 'product_id' => 48,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 100,
                 'transaction_type' => 1,
@@ -805,11 +805,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:00:54',
                 'product_id' => 57,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 101,
                 'transaction_type' => 2,
@@ -817,11 +817,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:08:49',
                 'product_id' => 57,
                 'quantity' => 100,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #46',
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 102,
                 'transaction_type' => 1,
@@ -829,11 +829,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:01:14',
                 'product_id' => 34,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 103,
                 'transaction_type' => 1,
@@ -841,11 +841,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:01:35',
                 'product_id' => 43,
                 'quantity' => 250,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 104,
                 'transaction_type' => 3,
@@ -853,11 +853,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:01:37',
                 'product_id' => 43,
                 'quantity' => 300,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #41',
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 105,
                 'transaction_type' => 1,
@@ -865,11 +865,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:01:55',
                 'product_id' => 8,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 106,
                 'transaction_type' => 2,
@@ -877,11 +877,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:07:37',
                 'product_id' => 8,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #48',
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 107,
                 'transaction_type' => 1,
@@ -889,11 +889,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:02:17',
                 'product_id' => 34,
                 'quantity' => 300,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 108,
                 'transaction_type' => 2,
@@ -901,11 +901,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:08:14',
                 'product_id' => 34,
                 'quantity' => 300,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #47',
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 109,
                 'transaction_type' => 1,
@@ -913,11 +913,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:02:37',
                 'product_id' => 19,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 110,
                 'transaction_type' => 2,
@@ -925,11 +925,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:41:14',
                 'product_id' => 19,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #42',
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 111,
                 'transaction_type' => 1,
@@ -937,11 +937,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:02:56',
                 'product_id' => 19,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 112,
                 'transaction_type' => 2,
@@ -949,11 +949,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:07:37',
                 'product_id' => 19,
                 'quantity' => 25,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #48',
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 113,
                 'transaction_type' => 1,
@@ -961,11 +961,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:03:12',
                 'product_id' => 72,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 114,
                 'transaction_type' => 2,
@@ -973,11 +973,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:08:49',
                 'product_id' => 72,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #46',
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 115,
                 'transaction_type' => 1,
@@ -985,11 +985,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:03:38',
                 'product_id' => 41,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 116,
                 'transaction_type' => 2,
@@ -997,11 +997,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:09:24',
                 'product_id' => 41,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #45',
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 117,
                 'transaction_type' => 2,
@@ -1009,11 +1009,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:05:04',
                 'product_id' => 34,
                 'quantity' => 87,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 118,
                 'transaction_type' => 2,
@@ -1021,11 +1021,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:35:54',
                 'product_id' => 51,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 119,
                 'transaction_type' => 2,
@@ -1033,11 +1033,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:35:54',
                 'product_id' => 7,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 120,
                 'transaction_type' => 2,
@@ -1045,11 +1045,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:36:21',
                 'product_id' => 17,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 121,
                 'transaction_type' => 2,
@@ -1057,11 +1057,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:36:47',
                 'product_id' => 6,
                 'quantity' => 90,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 122,
                 'transaction_type' => 2,
@@ -1069,11 +1069,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:37:09',
                 'product_id' => 4,
                 'quantity' => 30,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 123,
                 'transaction_type' => 2,
@@ -1081,11 +1081,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:37:49',
                 'product_id' => 48,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 124,
                 'transaction_type' => 2,
@@ -1093,11 +1093,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:38:11',
                 'product_id' => 48,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 125,
                 'transaction_type' => 2,
@@ -1105,11 +1105,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:38:32',
                 'product_id' => 41,
                 'quantity' => 10,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 126,
                 'transaction_type' => 2,
@@ -1117,11 +1117,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:38:53',
                 'product_id' => 43,
                 'quantity' => 5,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 127,
                 'transaction_type' => 2,
@@ -1129,11 +1129,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:39:29',
                 'product_id' => 40,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 128,
                 'transaction_type' => 2,
@@ -1141,11 +1141,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:39:53',
                 'product_id' => 8,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 129,
                 'transaction_type' => 2,
@@ -1153,11 +1153,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:40:16',
                 'product_id' => 80,
                 'quantity' => 15,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 130,
                 'transaction_type' => 2,
@@ -1165,11 +1165,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:40:38',
                 'product_id' => 74,
                 'quantity' => 20,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 131,
                 'transaction_type' => 2,
@@ -1177,11 +1177,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:41:45',
                 'product_id' => 72,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 132,
                 'transaction_type' => 2,
@@ -1189,11 +1189,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:42:26',
                 'product_id' => 3,
                 'quantity' => 50,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 133,
                 'transaction_type' => 2,
@@ -1201,11 +1201,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:42:26',
                 'product_id' => 8,
                 'quantity' => 3,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 134,
                 'transaction_type' => 2,
@@ -1213,11 +1213,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:43:08',
                 'product_id' => 20,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 135,
                 'transaction_type' => 2,
@@ -1225,11 +1225,11 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-04 11:43:08',
                 'product_id' => 52,
                 'quantity' => 40,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 136,
                 'transaction_type' => 3,
@@ -1237,12 +1237,10 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'transaction_modified_date' => '2006-04-25 17:04:57',
                 'product_id' => 56,
                 'quantity' => 110,
-                'purchase_order_id' => NULL,
-                'customer_order_id' => NULL,
-                'comments' => NULL,
+                'purchase_order_id' => null,
+                'customer_order_id' => null,
+                'comments' => null,
             ),
         ));
-        
-        
     }
 }

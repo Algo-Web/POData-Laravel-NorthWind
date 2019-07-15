@@ -15,8 +15,5 @@ class UsersTableSeeder extends Seeder
         
 
         \DB::table('users')->delete();
-        
-        
-        
     }
 }

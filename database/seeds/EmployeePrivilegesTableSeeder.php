@@ -17,13 +17,11 @@ class EmployeePrivilegesTableSeeder extends Seeder
         \DB::table('employee_privileges')->delete();
         
         \DB::table('employee_privileges')->insert(array (
-            0 => 
+            0 =>
             array (
                 'employee_id' => 2,
                 'privilege_id' => 2,
             ),
         ));
-        
-        
     }
 }

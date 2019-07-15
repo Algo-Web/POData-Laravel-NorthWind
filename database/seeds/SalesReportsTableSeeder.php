@@ -17,7 +17,7 @@ class SalesReportsTableSeeder extends Seeder
         \DB::table('sales_reports')->delete();
         
         \DB::table('sales_reports')->insert(array (
-            0 => 
+            0 =>
             array (
                 'group_by' => 'Category',
                 'display' => 'Category',
@@ -25,7 +25,7 @@ class SalesReportsTableSeeder extends Seeder
                 'filter_row_source' => 'SELECT DISTINCT [Category] FROM [products] ORDER BY [Category];',
                 'default' => 0,
             ),
-            1 => 
+            1 =>
             array (
                 'group_by' => 'country_region',
                 'display' => 'Country/Region',
@@ -33,7 +33,7 @@ class SalesReportsTableSeeder extends Seeder
                 'filter_row_source' => 'SELECT DISTINCT [country_region] FROM [customers Extended] ORDER BY [country_region];',
                 'default' => 0,
             ),
-            2 => 
+            2 =>
             array (
                 'group_by' => 'Customer ID',
                 'display' => 'Customer',
@@ -41,7 +41,7 @@ class SalesReportsTableSeeder extends Seeder
                 'filter_row_source' => 'SELECT DISTINCT [Company] FROM [customers Extended] ORDER BY [Company];',
                 'default' => 0,
             ),
-            3 => 
+            3 =>
             array (
                 'group_by' => 'employee_id',
                 'display' => 'Employee',
@@ -49,7 +49,7 @@ class SalesReportsTableSeeder extends Seeder
                 'filter_row_source' => 'SELECT DISTINCT [Employee Name] FROM [employees Extended] ORDER BY [Employee Name];',
                 'default' => 0,
             ),
-            4 => 
+            4 =>
             array (
                 'group_by' => 'Product ID',
                 'display' => 'Product',
@@ -58,7 +58,5 @@ class SalesReportsTableSeeder extends Seeder
                 'default' => 1,
             ),
         ));
-        
-        
     }
 }
