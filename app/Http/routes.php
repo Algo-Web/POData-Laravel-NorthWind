@@ -15,5 +15,7 @@
     return view('welcome');
 });*/
 
-Route::get('/', "HomeController@ProcessGet");
-Route::post('/', "HomeController@ProcessPost");
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', "HomeController@processGet");
+Route::post('/', "HomeController@processPost");

@@ -10,7 +10,8 @@
         "algo-web/podata-laravel": "dev-master",
         "orangehill/iseed": "2.2",
         "mpociot/laravel-test-factory-helper": "^0.4.0",
-        "justinrainbow/json-schema": "^5.0@dev"
+        "justinrainbow/json-schema": "^5.0@dev",
+        "ext-curl": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

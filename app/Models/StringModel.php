@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class String
+ * Class StringModel
  */
 class StringModel extends Model
 {
