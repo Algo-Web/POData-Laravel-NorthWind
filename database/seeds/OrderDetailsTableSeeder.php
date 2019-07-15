@@ -14,9 +14,10 @@ class OrderDetailsTableSeeder extends Seeder
     {
         \DB::table('order_details')->delete();
         
-        \DB::table('order_details')->insert(array (
+        \DB::table('order_details')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 27,
                 'order_id' => 30,
                 'product_id' => 34,
@@ -27,9 +28,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 96,
                 'inventory_id' => 83,
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 28,
                 'order_id' => 30,
                 'product_id' => 80,
@@ -40,9 +41,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 63,
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 29,
                 'order_id' => 31,
                 'product_id' => 7,
@@ -53,9 +54,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 64,
-            ),
+            ],
             3 =>
-            array (
+            [
                 'id' => 30,
                 'order_id' => 31,
                 'product_id' => 51,
@@ -66,9 +67,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 65,
-            ),
+            ],
             4 =>
-            array (
+            [
                 'id' => 31,
                 'order_id' => 31,
                 'product_id' => 80,
@@ -79,9 +80,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 66,
-            ),
+            ],
             5 =>
-            array (
+            [
                 'id' => 32,
                 'order_id' => 32,
                 'product_id' => 1,
@@ -92,9 +93,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 67,
-            ),
+            ],
             6 =>
-            array (
+            [
                 'id' => 33,
                 'order_id' => 32,
                 'product_id' => 43,
@@ -105,9 +106,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 68,
-            ),
+            ],
             7 =>
-            array (
+            [
                 'id' => 34,
                 'order_id' => 33,
                 'product_id' => 19,
@@ -118,9 +119,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 97,
                 'inventory_id' => 81,
-            ),
+            ],
             8 =>
-            array (
+            [
                 'id' => 35,
                 'order_id' => 34,
                 'product_id' => 19,
@@ -131,9 +132,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 69,
-            ),
+            ],
             9 =>
-            array (
+            [
                 'id' => 36,
                 'order_id' => 35,
                 'product_id' => 48,
@@ -144,9 +145,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 70,
-            ),
+            ],
             10 =>
-            array (
+            [
                 'id' => 37,
                 'order_id' => 36,
                 'product_id' => 41,
@@ -157,9 +158,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 98,
                 'inventory_id' => 79,
-            ),
+            ],
             11 =>
-            array (
+            [
                 'id' => 38,
                 'order_id' => 37,
                 'product_id' => 8,
@@ -170,9 +171,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 71,
-            ),
+            ],
             12 =>
-            array (
+            [
                 'id' => 39,
                 'order_id' => 38,
                 'product_id' => 43,
@@ -183,9 +184,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 99,
                 'inventory_id' => 77,
-            ),
+            ],
             13 =>
-            array (
+            [
                 'id' => 40,
                 'order_id' => 39,
                 'product_id' => 48,
@@ -196,9 +197,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 100,
                 'inventory_id' => 75,
-            ),
+            ],
             14 =>
-            array (
+            [
                 'id' => 41,
                 'order_id' => 40,
                 'product_id' => 81,
@@ -209,9 +210,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 101,
                 'inventory_id' => 73,
-            ),
+            ],
             15 =>
-            array (
+            [
                 'id' => 42,
                 'order_id' => 41,
                 'product_id' => 43,
@@ -222,9 +223,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 102,
                 'inventory_id' => 104,
-            ),
+            ],
             16 =>
-            array (
+            [
                 'id' => 43,
                 'order_id' => 42,
                 'product_id' => 6,
@@ -235,9 +236,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 84,
-            ),
+            ],
             17 =>
-            array (
+            [
                 'id' => 44,
                 'order_id' => 42,
                 'product_id' => 4,
@@ -248,9 +249,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 85,
-            ),
+            ],
             18 =>
-            array (
+            [
                 'id' => 45,
                 'order_id' => 42,
                 'product_id' => 19,
@@ -261,9 +262,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 103,
                 'inventory_id' => 110,
-            ),
+            ],
             19 =>
-            array (
+            [
                 'id' => 46,
                 'order_id' => 43,
                 'product_id' => 80,
@@ -274,9 +275,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 86,
-            ),
+            ],
             20 =>
-            array (
+            [
                 'id' => 47,
                 'order_id' => 43,
                 'product_id' => 81,
@@ -287,9 +288,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 87,
-            ),
+            ],
             21 =>
-            array (
+            [
                 'id' => 48,
                 'order_id' => 44,
                 'product_id' => 1,
@@ -300,9 +301,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 88,
-            ),
+            ],
             22 =>
-            array (
+            [
                 'id' => 49,
                 'order_id' => 44,
                 'product_id' => 43,
@@ -313,9 +314,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 89,
-            ),
+            ],
             23 =>
-            array (
+            [
                 'id' => 50,
                 'order_id' => 44,
                 'product_id' => 81,
@@ -326,9 +327,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 90,
-            ),
+            ],
             24 =>
-            array (
+            [
                 'id' => 51,
                 'order_id' => 45,
                 'product_id' => 41,
@@ -339,9 +340,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 104,
                 'inventory_id' => 116,
-            ),
+            ],
             25 =>
-            array (
+            [
                 'id' => 52,
                 'order_id' => 45,
                 'product_id' => 40,
@@ -352,9 +353,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 91,
-            ),
+            ],
             26 =>
-            array (
+            [
                 'id' => 53,
                 'order_id' => 46,
                 'product_id' => 57,
@@ -365,9 +366,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 105,
                 'inventory_id' => 101,
-            ),
+            ],
             27 =>
-            array (
+            [
                 'id' => 54,
                 'order_id' => 46,
                 'product_id' => 72,
@@ -378,9 +379,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 106,
                 'inventory_id' => 114,
-            ),
+            ],
             28 =>
-            array (
+            [
                 'id' => 55,
                 'order_id' => 47,
                 'product_id' => 34,
@@ -391,9 +392,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 107,
                 'inventory_id' => 108,
-            ),
+            ],
             29 =>
-            array (
+            [
                 'id' => 56,
                 'order_id' => 48,
                 'product_id' => 8,
@@ -404,9 +405,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 108,
                 'inventory_id' => 106,
-            ),
+            ],
             30 =>
-            array (
+            [
                 'id' => 57,
                 'order_id' => 48,
                 'product_id' => 19,
@@ -417,9 +418,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 109,
                 'inventory_id' => 112,
-            ),
+            ],
             31 =>
-            array (
+            [
                 'id' => 59,
                 'order_id' => 50,
                 'product_id' => 21,
@@ -430,9 +431,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 92,
-            ),
+            ],
             32 =>
-            array (
+            [
                 'id' => 60,
                 'order_id' => 51,
                 'product_id' => 5,
@@ -443,9 +444,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 93,
-            ),
+            ],
             33 =>
-            array (
+            [
                 'id' => 61,
                 'order_id' => 51,
                 'product_id' => 41,
@@ -456,9 +457,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 94,
-            ),
+            ],
             34 =>
-            array (
+            [
                 'id' => 62,
                 'order_id' => 51,
                 'product_id' => 40,
@@ -469,9 +470,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 95,
-            ),
+            ],
             35 =>
-            array (
+            [
                 'id' => 66,
                 'order_id' => 56,
                 'product_id' => 48,
@@ -482,9 +483,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => 111,
                 'inventory_id' => 99,
-            ),
+            ],
             36 =>
-            array (
+            [
                 'id' => 67,
                 'order_id' => 55,
                 'product_id' => 34,
@@ -495,9 +496,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 117,
-            ),
+            ],
             37 =>
-            array (
+            [
                 'id' => 68,
                 'order_id' => 79,
                 'product_id' => 7,
@@ -508,9 +509,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 119,
-            ),
+            ],
             38 =>
-            array (
+            [
                 'id' => 69,
                 'order_id' => 79,
                 'product_id' => 51,
@@ -521,9 +522,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 118,
-            ),
+            ],
             39 =>
-            array (
+            [
                 'id' => 70,
                 'order_id' => 78,
                 'product_id' => 17,
@@ -534,9 +535,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 120,
-            ),
+            ],
             40 =>
-            array (
+            [
                 'id' => 71,
                 'order_id' => 77,
                 'product_id' => 6,
@@ -547,9 +548,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 121,
-            ),
+            ],
             41 =>
-            array (
+            [
                 'id' => 72,
                 'order_id' => 76,
                 'product_id' => 4,
@@ -560,9 +561,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 122,
-            ),
+            ],
             42 =>
-            array (
+            [
                 'id' => 73,
                 'order_id' => 75,
                 'product_id' => 48,
@@ -573,9 +574,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 123,
-            ),
+            ],
             43 =>
-            array (
+            [
                 'id' => 74,
                 'order_id' => 74,
                 'product_id' => 48,
@@ -586,9 +587,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 124,
-            ),
+            ],
             44 =>
-            array (
+            [
                 'id' => 75,
                 'order_id' => 73,
                 'product_id' => 41,
@@ -599,9 +600,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 125,
-            ),
+            ],
             45 =>
-            array (
+            [
                 'id' => 76,
                 'order_id' => 72,
                 'product_id' => 43,
@@ -612,9 +613,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 126,
-            ),
+            ],
             46 =>
-            array (
+            [
                 'id' => 77,
                 'order_id' => 71,
                 'product_id' => 40,
@@ -625,9 +626,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 127,
-            ),
+            ],
             47 =>
-            array (
+            [
                 'id' => 78,
                 'order_id' => 70,
                 'product_id' => 8,
@@ -638,9 +639,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 128,
-            ),
+            ],
             48 =>
-            array (
+            [
                 'id' => 79,
                 'order_id' => 69,
                 'product_id' => 80,
@@ -651,9 +652,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 129,
-            ),
+            ],
             49 =>
-            array (
+            [
                 'id' => 80,
                 'order_id' => 67,
                 'product_id' => 74,
@@ -664,9 +665,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 130,
-            ),
+            ],
             50 =>
-            array (
+            [
                 'id' => 81,
                 'order_id' => 60,
                 'product_id' => 72,
@@ -677,9 +678,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 131,
-            ),
+            ],
             51 =>
-            array (
+            [
                 'id' => 82,
                 'order_id' => 63,
                 'product_id' => 3,
@@ -690,9 +691,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 132,
-            ),
+            ],
             52 =>
-            array (
+            [
                 'id' => 83,
                 'order_id' => 63,
                 'product_id' => 8,
@@ -703,9 +704,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 133,
-            ),
+            ],
             53 =>
-            array (
+            [
                 'id' => 84,
                 'order_id' => 58,
                 'product_id' => 20,
@@ -716,9 +717,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 134,
-            ),
+            ],
             54 =>
-            array (
+            [
                 'id' => 85,
                 'order_id' => 58,
                 'product_id' => 52,
@@ -729,9 +730,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 135,
-            ),
+            ],
             55 =>
-            array (
+            [
                 'id' => 86,
                 'order_id' => 80,
                 'product_id' => 56,
@@ -742,9 +743,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => 136,
-            ),
+            ],
             56 =>
-            array (
+            [
                 'id' => 90,
                 'order_id' => 81,
                 'product_id' => 81,
@@ -755,9 +756,9 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => null,
-            ),
+            ],
             57 =>
-            array (
+            [
                 'id' => 91,
                 'order_id' => 81,
                 'product_id' => 56,
@@ -768,7 +769,8 @@ class OrderDetailsTableSeeder extends Seeder
                 'date_allocated' => null,
                 'purchase_order_id' => null,
                 'inventory_id' => null,
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

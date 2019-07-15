@@ -14,9 +14,10 @@ class SuppliersTableSeeder extends Seeder
     {
         \DB::table('suppliers')->delete();
         
-        \DB::table('suppliers')->insert(array (
+        \DB::table('suppliers')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 1,
                 'company' => 'Supplier A',
                 'last_name' => 'Andersen',
@@ -35,9 +36,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 2,
                 'company' => 'Supplier B',
                 'last_name' => 'Weiler',
@@ -56,9 +57,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 3,
                 'company' => 'Supplier C',
                 'last_name' => 'Kelley',
@@ -77,9 +78,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             3 =>
-            array (
+            [
                 'id' => 4,
                 'company' => 'Supplier D',
                 'last_name' => 'Sato',
@@ -98,9 +99,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             4 =>
-            array (
+            [
                 'id' => 5,
                 'company' => 'Supplier E',
                 'last_name' => 'Hernandez-Echevarria',
@@ -119,9 +120,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             5 =>
-            array (
+            [
                 'id' => 6,
                 'company' => 'Supplier F',
                 'last_name' => 'Hayakawa',
@@ -140,9 +141,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             6 =>
-            array (
+            [
                 'id' => 7,
                 'company' => 'Supplier G',
                 'last_name' => 'Glasson',
@@ -161,9 +162,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             7 =>
-            array (
+            [
                 'id' => 8,
                 'company' => 'Supplier H',
                 'last_name' => 'Dunton',
@@ -182,9 +183,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             8 =>
-            array (
+            [
                 'id' => 9,
                 'company' => 'Supplier I',
                 'last_name' => 'Sandberg',
@@ -203,9 +204,9 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             9 =>
-            array (
+            [
                 'id' => 10,
                 'company' => 'Supplier J',
                 'last_name' => 'Sousa',
@@ -224,7 +225,8 @@ class SuppliersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

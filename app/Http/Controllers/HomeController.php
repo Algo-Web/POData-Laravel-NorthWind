@@ -12,13 +12,13 @@ class HomeController extends Controller
         $version     = "v0.0.1";
         $url         = "";
         $requestBody = "";
-        $methodData  = array(
+        $methodData  = [
             "GET" => 0,
             "POST" => 0,
             "PUT" => 0,
             "PATCH" => 0,
             "DELETE" => 0
-        );
+        ];
         $opt = "";
         foreach ($methodData as $tName => $tSelected) {
             $opt .= sprintf(

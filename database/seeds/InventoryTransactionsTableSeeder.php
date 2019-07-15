@@ -14,9 +14,10 @@ class InventoryTransactionsTableSeeder extends Seeder
     {
         \DB::table('inventory_transactions')->delete();
         
-        \DB::table('inventory_transactions')->insert(array (
+        \DB::table('inventory_transactions')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 35,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:02:28',
@@ -26,9 +27,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 36,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:02:48',
@@ -38,9 +39,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 37,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:03:04',
@@ -50,9 +51,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             3 =>
-            array (
+            [
                 'id' => 38,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:03:09',
@@ -62,9 +63,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             4 =>
-            array (
+            [
                 'id' => 39,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:03:14',
@@ -74,9 +75,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             5 =>
-            array (
+            [
                 'id' => 40,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:03:40',
@@ -86,9 +87,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             6 =>
-            array (
+            [
                 'id' => 41,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:03:47',
@@ -98,9 +99,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             7 =>
-            array (
+            [
                 'id' => 42,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:03:54',
@@ -110,9 +111,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             8 =>
-            array (
+            [
                 'id' => 43,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:02',
@@ -122,9 +123,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             9 =>
-            array (
+            [
                 'id' => 44,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:07',
@@ -134,9 +135,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             10 =>
-            array (
+            [
                 'id' => 45,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:12',
@@ -146,9 +147,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             11 =>
-            array (
+            [
                 'id' => 46,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:17',
@@ -158,9 +159,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             12 =>
-            array (
+            [
                 'id' => 47,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:20',
@@ -170,9 +171,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             13 =>
-            array (
+            [
                 'id' => 48,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:24',
@@ -182,9 +183,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             14 =>
-            array (
+            [
                 'id' => 49,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:28',
@@ -194,9 +195,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             15 =>
-            array (
+            [
                 'id' => 50,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:31',
@@ -206,9 +207,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             16 =>
-            array (
+            [
                 'id' => 51,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:38',
@@ -218,9 +219,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             17 =>
-            array (
+            [
                 'id' => 52,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:41',
@@ -230,9 +231,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             18 =>
-            array (
+            [
                 'id' => 53,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:04:45',
@@ -242,9 +243,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             19 =>
-            array (
+            [
                 'id' => 54,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:07',
@@ -254,9 +255,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             20 =>
-            array (
+            [
                 'id' => 55,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:11',
@@ -266,9 +267,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             21 =>
-            array (
+            [
                 'id' => 56,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:14',
@@ -278,9 +279,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             22 =>
-            array (
+            [
                 'id' => 57,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:26',
@@ -290,9 +291,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             23 =>
-            array (
+            [
                 'id' => 58,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:32',
@@ -302,9 +303,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             24 =>
-            array (
+            [
                 'id' => 59,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:47',
@@ -314,9 +315,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             25 =>
-            array (
+            [
                 'id' => 60,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:05:51',
@@ -326,9 +327,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             26 =>
-            array (
+            [
                 'id' => 61,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:06:00',
@@ -338,9 +339,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             27 =>
-            array (
+            [
                 'id' => 62,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-22 16:06:03',
@@ -350,9 +351,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             28 =>
-            array (
+            [
                 'id' => 63,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:07:56',
@@ -362,9 +363,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             29 =>
-            array (
+            [
                 'id' => 64,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:08:19',
@@ -374,9 +375,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             30 =>
-            array (
+            [
                 'id' => 65,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:08:29',
@@ -386,9 +387,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             31 =>
-            array (
+            [
                 'id' => 66,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:08:37',
@@ -398,9 +399,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             32 =>
-            array (
+            [
                 'id' => 67,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:09:46',
@@ -410,9 +411,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             33 =>
-            array (
+            [
                 'id' => 68,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:10:06',
@@ -422,9 +423,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             34 =>
-            array (
+            [
                 'id' => 69,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:11:39',
@@ -434,9 +435,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             35 =>
-            array (
+            [
                 'id' => 70,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:11:56',
@@ -446,9 +447,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             36 =>
-            array (
+            [
                 'id' => 71,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-22 16:12:29',
@@ -458,9 +459,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             37 =>
-            array (
+            [
                 'id' => 72,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-24 10:41:30',
@@ -470,9 +471,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             38 =>
-            array (
+            [
                 'id' => 73,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 10:41:33',
@@ -482,9 +483,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #40',
-            ),
+            ],
             39 =>
-            array (
+            [
                 'id' => 74,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-24 10:53:13',
@@ -494,9 +495,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             40 =>
-            array (
+            [
                 'id' => 75,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 10:53:16',
@@ -506,9 +507,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #39',
-            ),
+            ],
             41 =>
-            array (
+            [
                 'id' => 76,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-24 10:53:36',
@@ -518,9 +519,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             42 =>
-            array (
+            [
                 'id' => 77,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 10:53:39',
@@ -530,9 +531,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #38',
-            ),
+            ],
             43 =>
-            array (
+            [
                 'id' => 78,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-24 10:54:04',
@@ -542,9 +543,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             44 =>
-            array (
+            [
                 'id' => 79,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 10:54:07',
@@ -554,9 +555,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #36',
-            ),
+            ],
             45 =>
-            array (
+            [
                 'id' => 80,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-24 10:54:33',
@@ -566,9 +567,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             46 =>
-            array (
+            [
                 'id' => 81,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 10:54:35',
@@ -578,9 +579,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #33',
-            ),
+            ],
             47 =>
-            array (
+            [
                 'id' => 82,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-03-24 10:54:58',
@@ -590,9 +591,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             48 =>
-            array (
+            [
                 'id' => 83,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 10:55:02',
@@ -602,9 +603,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #30',
-            ),
+            ],
             49 =>
-            array (
+            [
                 'id' => 84,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:48:15',
@@ -614,9 +615,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             50 =>
-            array (
+            [
                 'id' => 85,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:48:23',
@@ -626,9 +627,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             51 =>
-            array (
+            [
                 'id' => 86,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-24 14:49:16',
@@ -638,9 +639,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             52 =>
-            array (
+            [
                 'id' => 87,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-24 14:49:20',
@@ -650,9 +651,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             53 =>
-            array (
+            [
                 'id' => 88,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-24 14:50:09',
@@ -662,9 +663,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             54 =>
-            array (
+            [
                 'id' => 89,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-24 14:50:14',
@@ -674,9 +675,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             55 =>
-            array (
+            [
                 'id' => 90,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-24 14:50:18',
@@ -686,9 +687,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             56 =>
-            array (
+            [
                 'id' => 91,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:51:03',
@@ -698,9 +699,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             57 =>
-            array (
+            [
                 'id' => 92,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:55:03',
@@ -710,9 +711,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             58 =>
-            array (
+            [
                 'id' => 93,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:55:39',
@@ -722,9 +723,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             59 =>
-            array (
+            [
                 'id' => 94,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:55:52',
@@ -734,9 +735,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             60 =>
-            array (
+            [
                 'id' => 95,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-03-24 14:56:09',
@@ -746,9 +747,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             61 =>
-            array (
+            [
                 'id' => 96,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-30 16:46:34',
@@ -758,9 +759,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             62 =>
-            array (
+            [
                 'id' => 97,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-30 17:23:27',
@@ -770,9 +771,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             63 =>
-            array (
+            [
                 'id' => 98,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-03-30 17:24:33',
@@ -782,9 +783,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             64 =>
-            array (
+            [
                 'id' => 99,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-03 13:50:08',
@@ -794,9 +795,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             65 =>
-            array (
+            [
                 'id' => 100,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:00:54',
@@ -806,9 +807,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             66 =>
-            array (
+            [
                 'id' => 101,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:00:56',
@@ -818,9 +819,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #46',
-            ),
+            ],
             67 =>
-            array (
+            [
                 'id' => 102,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:01:14',
@@ -830,9 +831,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             68 =>
-            array (
+            [
                 'id' => 103,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:01:35',
@@ -842,9 +843,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             69 =>
-            array (
+            [
                 'id' => 104,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-04-04 11:01:37',
@@ -854,9 +855,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #41',
-            ),
+            ],
             70 =>
-            array (
+            [
                 'id' => 105,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:01:55',
@@ -866,9 +867,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             71 =>
-            array (
+            [
                 'id' => 106,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:01:58',
@@ -878,9 +879,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #48',
-            ),
+            ],
             72 =>
-            array (
+            [
                 'id' => 107,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:02:17',
@@ -890,9 +891,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             73 =>
-            array (
+            [
                 'id' => 108,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:02:19',
@@ -902,9 +903,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #47',
-            ),
+            ],
             74 =>
-            array (
+            [
                 'id' => 109,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:02:37',
@@ -914,9 +915,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             75 =>
-            array (
+            [
                 'id' => 110,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:02:39',
@@ -926,9 +927,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #42',
-            ),
+            ],
             76 =>
-            array (
+            [
                 'id' => 111,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:02:56',
@@ -938,9 +939,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             77 =>
-            array (
+            [
                 'id' => 112,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:02:58',
@@ -950,9 +951,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #48',
-            ),
+            ],
             78 =>
-            array (
+            [
                 'id' => 113,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:03:12',
@@ -962,9 +963,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             79 =>
-            array (
+            [
                 'id' => 114,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:03:14',
@@ -974,9 +975,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #46',
-            ),
+            ],
             80 =>
-            array (
+            [
                 'id' => 115,
                 'transaction_type' => 1,
                 'transaction_created_date' => '2006-04-04 11:03:38',
@@ -986,9 +987,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             81 =>
-            array (
+            [
                 'id' => 116,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:03:39',
@@ -998,9 +999,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => 'Fill Back Ordered product, Order #45',
-            ),
+            ],
             82 =>
-            array (
+            [
                 'id' => 117,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:04:55',
@@ -1010,9 +1011,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             83 =>
-            array (
+            [
                 'id' => 118,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:35:50',
@@ -1022,9 +1023,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             84 =>
-            array (
+            [
                 'id' => 119,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:35:51',
@@ -1034,9 +1035,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             85 =>
-            array (
+            [
                 'id' => 120,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:36:15',
@@ -1046,9 +1047,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             86 =>
-            array (
+            [
                 'id' => 121,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:36:39',
@@ -1058,9 +1059,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             87 =>
-            array (
+            [
                 'id' => 122,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:37:06',
@@ -1070,9 +1071,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             88 =>
-            array (
+            [
                 'id' => 123,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:37:45',
@@ -1082,9 +1083,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             89 =>
-            array (
+            [
                 'id' => 124,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:38:07',
@@ -1094,9 +1095,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             90 =>
-            array (
+            [
                 'id' => 125,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:38:27',
@@ -1106,9 +1107,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             91 =>
-            array (
+            [
                 'id' => 126,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:38:48',
@@ -1118,9 +1119,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             92 =>
-            array (
+            [
                 'id' => 127,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:39:12',
@@ -1130,9 +1131,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             93 =>
-            array (
+            [
                 'id' => 128,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:39:50',
@@ -1142,9 +1143,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             94 =>
-            array (
+            [
                 'id' => 129,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:40:13',
@@ -1154,9 +1155,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             95 =>
-            array (
+            [
                 'id' => 130,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:40:32',
@@ -1166,9 +1167,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             96 =>
-            array (
+            [
                 'id' => 131,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:41:39',
@@ -1178,9 +1179,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             97 =>
-            array (
+            [
                 'id' => 132,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:42:17',
@@ -1190,9 +1191,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             98 =>
-            array (
+            [
                 'id' => 133,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:42:24',
@@ -1202,9 +1203,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             99 =>
-            array (
+            [
                 'id' => 134,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:42:48',
@@ -1214,9 +1215,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             100 =>
-            array (
+            [
                 'id' => 135,
                 'transaction_type' => 2,
                 'transaction_created_date' => '2006-04-04 11:43:05',
@@ -1226,9 +1227,9 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
+            ],
             101 =>
-            array (
+            [
                 'id' => 136,
                 'transaction_type' => 3,
                 'transaction_created_date' => '2006-04-25 17:04:05',
@@ -1238,7 +1239,8 @@ class InventoryTransactionsTableSeeder extends Seeder
                 'purchase_order_id' => null,
                 'customer_order_id' => null,
                 'comments' => null,
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

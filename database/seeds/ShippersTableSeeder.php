@@ -14,9 +14,10 @@ class ShippersTableSeeder extends Seeder
     {
         \DB::table('shippers')->delete();
         
-        \DB::table('shippers')->insert(array (
+        \DB::table('shippers')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 1,
                 'company' => 'Shipping Company A',
                 'last_name' => null,
@@ -35,9 +36,9 @@ class ShippersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 2,
                 'company' => 'Shipping Company B',
                 'last_name' => null,
@@ -56,9 +57,9 @@ class ShippersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 3,
                 'company' => 'Shipping Company C',
                 'last_name' => null,
@@ -77,7 +78,8 @@ class ShippersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

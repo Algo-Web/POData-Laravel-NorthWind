@@ -14,12 +14,14 @@ class PrivilegesTableSeeder extends Seeder
     {
         \DB::table('privileges')->delete();
         
-        \DB::table('privileges')->insert(array (
+        \DB::table('privileges')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 2,
                 'privilege_name' => 'Purchase Approvals',
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

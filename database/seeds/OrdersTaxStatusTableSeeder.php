@@ -14,17 +14,19 @@ class OrdersTaxStatusTableSeeder extends Seeder
     {
         \DB::table('orders_tax_status')->delete();
         
-        \DB::table('orders_tax_status')->insert(array (
+        \DB::table('orders_tax_status')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 0,
                 'tax_status_name' => 'Tax Exempt',
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 1,
                 'tax_status_name' => 'Taxable',
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

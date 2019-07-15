@@ -14,9 +14,10 @@ class CustomersTableSeeder extends Seeder
     {
         \DB::table('customers')->delete();
         
-        \DB::table('customers')->insert(array (
+        \DB::table('customers')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 1,
                 'company' => 'Company A',
                 'last_name' => 'Bedecs',
@@ -35,9 +36,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 2,
                 'company' => 'Company B',
                 'last_name' => 'Gratacos Solsona',
@@ -56,9 +57,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 3,
                 'company' => 'Company C',
                 'last_name' => 'Axen',
@@ -77,9 +78,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             3 =>
-            array (
+            [
                 'id' => 4,
                 'company' => 'Company D',
                 'last_name' => 'Lee',
@@ -98,9 +99,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             4 =>
-            array (
+            [
                 'id' => 5,
                 'company' => 'Company E',
                 'last_name' => 'O’Donnell',
@@ -119,9 +120,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             5 =>
-            array (
+            [
                 'id' => 6,
                 'company' => 'Company F',
                 'last_name' => 'Pérez-Olaeta',
@@ -140,9 +141,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             6 =>
-            array (
+            [
                 'id' => 7,
                 'company' => 'Company G',
                 'last_name' => 'Xie',
@@ -161,9 +162,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             7 =>
-            array (
+            [
                 'id' => 8,
                 'company' => 'Company H',
                 'last_name' => 'Andersen',
@@ -182,9 +183,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             8 =>
-            array (
+            [
                 'id' => 9,
                 'company' => 'Company I',
                 'last_name' => 'Mortensen',
@@ -203,9 +204,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             9 =>
-            array (
+            [
                 'id' => 10,
                 'company' => 'Company J',
                 'last_name' => 'Wacker',
@@ -224,9 +225,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             10 =>
-            array (
+            [
                 'id' => 11,
                 'company' => 'Company K',
                 'last_name' => 'Krschne',
@@ -245,9 +246,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             11 =>
-            array (
+            [
                 'id' => 12,
                 'company' => 'Company L',
                 'last_name' => 'Edwards',
@@ -266,9 +267,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             12 =>
-            array (
+            [
                 'id' => 13,
                 'company' => 'Company M',
                 'last_name' => 'Ludick',
@@ -287,9 +288,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             13 =>
-            array (
+            [
                 'id' => 14,
                 'company' => 'Company N',
                 'last_name' => 'Grilo',
@@ -308,9 +309,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             14 =>
-            array (
+            [
                 'id' => 15,
                 'company' => 'Company O',
                 'last_name' => 'Kupkova',
@@ -329,9 +330,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             15 =>
-            array (
+            [
                 'id' => 16,
                 'company' => 'Company P',
                 'last_name' => 'Goldschmidt',
@@ -350,9 +351,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             16 =>
-            array (
+            [
                 'id' => 17,
                 'company' => 'Company Q',
                 'last_name' => 'Bagel',
@@ -371,9 +372,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             17 =>
-            array (
+            [
                 'id' => 18,
                 'company' => 'Company R',
                 'last_name' => 'Autier Miconi',
@@ -392,9 +393,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             18 =>
-            array (
+            [
                 'id' => 19,
                 'company' => 'Company S',
                 'last_name' => 'Eggerer',
@@ -413,9 +414,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             19 =>
-            array (
+            [
                 'id' => 20,
                 'company' => 'Company T',
                 'last_name' => 'Li',
@@ -434,9 +435,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             20 =>
-            array (
+            [
                 'id' => 21,
                 'company' => 'Company U',
                 'last_name' => 'Tham',
@@ -455,9 +456,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             21 =>
-            array (
+            [
                 'id' => 22,
                 'company' => 'Company V',
                 'last_name' => 'Ramos',
@@ -476,9 +477,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             22 =>
-            array (
+            [
                 'id' => 23,
                 'company' => 'Company W',
                 'last_name' => 'Entin',
@@ -497,9 +498,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             23 =>
-            array (
+            [
                 'id' => 24,
                 'company' => 'Company X',
                 'last_name' => 'Hasselberg',
@@ -518,9 +519,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             24 =>
-            array (
+            [
                 'id' => 25,
                 'company' => 'Company Y',
                 'last_name' => 'Rodman',
@@ -539,9 +540,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             25 =>
-            array (
+            [
                 'id' => 26,
                 'company' => 'Company Z',
                 'last_name' => 'Liu',
@@ -560,9 +561,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             26 =>
-            array (
+            [
                 'id' => 27,
                 'company' => 'Company AA',
                 'last_name' => 'Toh',
@@ -581,9 +582,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             27 =>
-            array (
+            [
                 'id' => 28,
                 'company' => 'Company BB',
                 'last_name' => 'Raghav',
@@ -602,9 +603,9 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
+            ],
             28 =>
-            array (
+            [
                 'id' => 29,
                 'company' => 'Company CC',
                 'last_name' => 'Lee',
@@ -623,7 +624,8 @@ class CustomersTableSeeder extends Seeder
                 'web_page' => null,
                 'notes' => null,
                 'attachments' => '',
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

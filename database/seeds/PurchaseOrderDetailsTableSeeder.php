@@ -14,9 +14,10 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
     {
         \DB::table('purchase_order_details')->delete();
         
-        \DB::table('purchase_order_details')->insert(array (
+        \DB::table('purchase_order_details')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 238,
                 'purchase_order_id' => 90,
                 'product_id' => 1,
@@ -25,9 +26,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 59,
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 239,
                 'purchase_order_id' => 91,
                 'product_id' => 3,
@@ -36,9 +37,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 54,
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 240,
                 'purchase_order_id' => 91,
                 'product_id' => 4,
@@ -47,9 +48,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 55,
-            ),
+            ],
             3 =>
-            array (
+            [
                 'id' => 241,
                 'purchase_order_id' => 91,
                 'product_id' => 5,
@@ -58,9 +59,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 56,
-            ),
+            ],
             4 =>
-            array (
+            [
                 'id' => 242,
                 'purchase_order_id' => 92,
                 'product_id' => 6,
@@ -69,9 +70,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 40,
-            ),
+            ],
             5 =>
-            array (
+            [
                 'id' => 243,
                 'purchase_order_id' => 92,
                 'product_id' => 7,
@@ -80,9 +81,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 41,
-            ),
+            ],
             6 =>
-            array (
+            [
                 'id' => 244,
                 'purchase_order_id' => 92,
                 'product_id' => 8,
@@ -91,9 +92,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 42,
-            ),
+            ],
             7 =>
-            array (
+            [
                 'id' => 245,
                 'purchase_order_id' => 92,
                 'product_id' => 14,
@@ -102,9 +103,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 43,
-            ),
+            ],
             8 =>
-            array (
+            [
                 'id' => 246,
                 'purchase_order_id' => 92,
                 'product_id' => 17,
@@ -113,9 +114,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 44,
-            ),
+            ],
             9 =>
-            array (
+            [
                 'id' => 247,
                 'purchase_order_id' => 92,
                 'product_id' => 19,
@@ -124,9 +125,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 45,
-            ),
+            ],
             10 =>
-            array (
+            [
                 'id' => 248,
                 'purchase_order_id' => 92,
                 'product_id' => 20,
@@ -135,9 +136,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 46,
-            ),
+            ],
             11 =>
-            array (
+            [
                 'id' => 249,
                 'purchase_order_id' => 92,
                 'product_id' => 21,
@@ -146,9 +147,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 47,
-            ),
+            ],
             12 =>
-            array (
+            [
                 'id' => 250,
                 'purchase_order_id' => 90,
                 'product_id' => 34,
@@ -157,9 +158,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 60,
-            ),
+            ],
             13 =>
-            array (
+            [
                 'id' => 251,
                 'purchase_order_id' => 92,
                 'product_id' => 40,
@@ -168,9 +169,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 48,
-            ),
+            ],
             14 =>
-            array (
+            [
                 'id' => 252,
                 'purchase_order_id' => 92,
                 'product_id' => 41,
@@ -179,9 +180,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 49,
-            ),
+            ],
             15 =>
-            array (
+            [
                 'id' => 253,
                 'purchase_order_id' => 90,
                 'product_id' => 43,
@@ -190,9 +191,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 61,
-            ),
+            ],
             16 =>
-            array (
+            [
                 'id' => 254,
                 'purchase_order_id' => 92,
                 'product_id' => 48,
@@ -201,9 +202,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 50,
-            ),
+            ],
             17 =>
-            array (
+            [
                 'id' => 255,
                 'purchase_order_id' => 92,
                 'product_id' => 51,
@@ -212,9 +213,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 51,
-            ),
+            ],
             18 =>
-            array (
+            [
                 'id' => 256,
                 'purchase_order_id' => 93,
                 'product_id' => 52,
@@ -223,9 +224,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 37,
-            ),
+            ],
             19 =>
-            array (
+            [
                 'id' => 257,
                 'purchase_order_id' => 93,
                 'product_id' => 56,
@@ -234,9 +235,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 38,
-            ),
+            ],
             20 =>
-            array (
+            [
                 'id' => 258,
                 'purchase_order_id' => 93,
                 'product_id' => 57,
@@ -245,9 +246,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 39,
-            ),
+            ],
             21 =>
-            array (
+            [
                 'id' => 259,
                 'purchase_order_id' => 91,
                 'product_id' => 65,
@@ -256,9 +257,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 57,
-            ),
+            ],
             22 =>
-            array (
+            [
                 'id' => 260,
                 'purchase_order_id' => 91,
                 'product_id' => 66,
@@ -267,9 +268,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 58,
-            ),
+            ],
             23 =>
-            array (
+            [
                 'id' => 261,
                 'purchase_order_id' => 94,
                 'product_id' => 72,
@@ -278,9 +279,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 36,
-            ),
+            ],
             24 =>
-            array (
+            [
                 'id' => 262,
                 'purchase_order_id' => 92,
                 'product_id' => 74,
@@ -289,9 +290,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 52,
-            ),
+            ],
             25 =>
-            array (
+            [
                 'id' => 263,
                 'purchase_order_id' => 92,
                 'product_id' => 77,
@@ -300,9 +301,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 53,
-            ),
+            ],
             26 =>
-            array (
+            [
                 'id' => 264,
                 'purchase_order_id' => 95,
                 'product_id' => 80,
@@ -311,9 +312,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 35,
-            ),
+            ],
             27 =>
-            array (
+            [
                 'id' => 265,
                 'purchase_order_id' => 90,
                 'product_id' => 81,
@@ -322,9 +323,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 62,
-            ),
+            ],
             28 =>
-            array (
+            [
                 'id' => 266,
                 'purchase_order_id' => 96,
                 'product_id' => 34,
@@ -333,9 +334,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 82,
-            ),
+            ],
             29 =>
-            array (
+            [
                 'id' => 267,
                 'purchase_order_id' => 97,
                 'product_id' => 19,
@@ -344,9 +345,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 80,
-            ),
+            ],
             30 =>
-            array (
+            [
                 'id' => 268,
                 'purchase_order_id' => 98,
                 'product_id' => 41,
@@ -355,9 +356,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 78,
-            ),
+            ],
             31 =>
-            array (
+            [
                 'id' => 269,
                 'purchase_order_id' => 99,
                 'product_id' => 43,
@@ -366,9 +367,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 76,
-            ),
+            ],
             32 =>
-            array (
+            [
                 'id' => 270,
                 'purchase_order_id' => 100,
                 'product_id' => 48,
@@ -377,9 +378,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 74,
-            ),
+            ],
             33 =>
-            array (
+            [
                 'id' => 271,
                 'purchase_order_id' => 101,
                 'product_id' => 81,
@@ -388,9 +389,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-01-22 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 72,
-            ),
+            ],
             34 =>
-            array (
+            [
                 'id' => 272,
                 'purchase_order_id' => 102,
                 'product_id' => 43,
@@ -399,9 +400,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             35 =>
-            array (
+            [
                 'id' => 273,
                 'purchase_order_id' => 103,
                 'product_id' => 19,
@@ -410,9 +411,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-17 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 111,
-            ),
+            ],
             36 =>
-            array (
+            [
                 'id' => 274,
                 'purchase_order_id' => 104,
                 'product_id' => 41,
@@ -421,9 +422,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-06 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 115,
-            ),
+            ],
             37 =>
-            array (
+            [
                 'id' => 275,
                 'purchase_order_id' => 105,
                 'product_id' => 57,
@@ -432,9 +433,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-05 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 100,
-            ),
+            ],
             38 =>
-            array (
+            [
                 'id' => 276,
                 'purchase_order_id' => 106,
                 'product_id' => 72,
@@ -443,9 +444,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-05 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 113,
-            ),
+            ],
             39 =>
-            array (
+            [
                 'id' => 277,
                 'purchase_order_id' => 107,
                 'product_id' => 34,
@@ -454,9 +455,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-05 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 107,
-            ),
+            ],
             40 =>
-            array (
+            [
                 'id' => 278,
                 'purchase_order_id' => 108,
                 'product_id' => 8,
@@ -465,9 +466,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-05 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 105,
-            ),
+            ],
             41 =>
-            array (
+            [
                 'id' => 279,
                 'purchase_order_id' => 109,
                 'product_id' => 19,
@@ -476,9 +477,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-05 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 109,
-            ),
+            ],
             42 =>
-            array (
+            [
                 'id' => 280,
                 'purchase_order_id' => 110,
                 'product_id' => 43,
@@ -487,9 +488,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-10 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 103,
-            ),
+            ],
             43 =>
-            array (
+            [
                 'id' => 281,
                 'purchase_order_id' => 90,
                 'product_id' => 1,
@@ -498,9 +499,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             44 =>
-            array (
+            [
                 'id' => 282,
                 'purchase_order_id' => 92,
                 'product_id' => 19,
@@ -509,9 +510,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             45 =>
-            array (
+            [
                 'id' => 283,
                 'purchase_order_id' => 111,
                 'product_id' => 34,
@@ -520,9 +521,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => '2006-04-04 00:00:00',
                 'posted_to_inventory' => 1,
                 'inventory_id' => 102,
-            ),
+            ],
             46 =>
-            array (
+            [
                 'id' => 285,
                 'purchase_order_id' => 91,
                 'product_id' => 3,
@@ -531,9 +532,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             47 =>
-            array (
+            [
                 'id' => 286,
                 'purchase_order_id' => 91,
                 'product_id' => 4,
@@ -542,9 +543,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             48 =>
-            array (
+            [
                 'id' => 288,
                 'purchase_order_id' => 140,
                 'product_id' => 85,
@@ -553,9 +554,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             49 =>
-            array (
+            [
                 'id' => 289,
                 'purchase_order_id' => 141,
                 'product_id' => 6,
@@ -564,9 +565,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             50 =>
-            array (
+            [
                 'id' => 290,
                 'purchase_order_id' => 142,
                 'product_id' => 1,
@@ -575,9 +576,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             51 =>
-            array (
+            [
                 'id' => 292,
                 'purchase_order_id' => 146,
                 'product_id' => 20,
@@ -586,9 +587,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             52 =>
-            array (
+            [
                 'id' => 293,
                 'purchase_order_id' => 146,
                 'product_id' => 51,
@@ -597,9 +598,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             53 =>
-            array (
+            [
                 'id' => 294,
                 'purchase_order_id' => 147,
                 'product_id' => 40,
@@ -608,9 +609,9 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
+            ],
             54 =>
-            array (
+            [
                 'id' => 295,
                 'purchase_order_id' => 148,
                 'product_id' => 72,
@@ -619,7 +620,8 @@ class PurchaseOrderDetailsTableSeeder extends Seeder
                 'date_received' => null,
                 'posted_to_inventory' => 0,
                 'inventory_id' => null,
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

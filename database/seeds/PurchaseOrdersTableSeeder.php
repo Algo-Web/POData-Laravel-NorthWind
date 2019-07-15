@@ -14,9 +14,10 @@ class PurchaseOrdersTableSeeder extends Seeder
     {
         \DB::table('purchase_orders')->delete();
         
-        \DB::table('purchase_orders')->insert(array (
+        \DB::table('purchase_orders')->insert(
+            [
             0 =>
-            array (
+            [
                 'id' => 90,
                 'supplier_id' => 1,
                 'created_by' => 2,
@@ -33,9 +34,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             1 =>
-            array (
+            [
                 'id' => 91,
                 'supplier_id' => 3,
                 'created_by' => 2,
@@ -52,9 +53,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             2 =>
-            array (
+            [
                 'id' => 92,
                 'supplier_id' => 2,
                 'created_by' => 2,
@@ -71,9 +72,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             3 =>
-            array (
+            [
                 'id' => 93,
                 'supplier_id' => 5,
                 'created_by' => 2,
@@ -90,9 +91,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             4 =>
-            array (
+            [
                 'id' => 94,
                 'supplier_id' => 6,
                 'created_by' => 2,
@@ -109,9 +110,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             5 =>
-            array (
+            [
                 'id' => 95,
                 'supplier_id' => 4,
                 'created_by' => 2,
@@ -128,9 +129,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             6 =>
-            array (
+            [
                 'id' => 96,
                 'supplier_id' => 1,
                 'created_by' => 5,
@@ -147,9 +148,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 5,
-            ),
+            ],
             7 =>
-            array (
+            [
                 'id' => 97,
                 'supplier_id' => 2,
                 'created_by' => 7,
@@ -166,9 +167,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 7,
-            ),
+            ],
             8 =>
-            array (
+            [
                 'id' => 98,
                 'supplier_id' => 2,
                 'created_by' => 4,
@@ -185,9 +186,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 4,
-            ),
+            ],
             9 =>
-            array (
+            [
                 'id' => 99,
                 'supplier_id' => 1,
                 'created_by' => 3,
@@ -204,9 +205,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 3,
-            ),
+            ],
             10 =>
-            array (
+            [
                 'id' => 100,
                 'supplier_id' => 2,
                 'created_by' => 9,
@@ -223,9 +224,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 9,
-            ),
+            ],
             11 =>
-            array (
+            [
                 'id' => 101,
                 'supplier_id' => 1,
                 'created_by' => 2,
@@ -242,9 +243,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-01-22 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             12 =>
-            array (
+            [
                 'id' => 102,
                 'supplier_id' => 1,
                 'created_by' => 1,
@@ -261,9 +262,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 1,
-            ),
+            ],
             13 =>
-            array (
+            [
                 'id' => 103,
                 'supplier_id' => 2,
                 'created_by' => 1,
@@ -280,9 +281,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 1,
-            ),
+            ],
             14 =>
-            array (
+            [
                 'id' => 104,
                 'supplier_id' => 2,
                 'created_by' => 1,
@@ -299,9 +300,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 1,
-            ),
+            ],
             15 =>
-            array (
+            [
                 'id' => 105,
                 'supplier_id' => 5,
                 'created_by' => 7,
@@ -318,9 +319,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 7,
-            ),
+            ],
             16 =>
-            array (
+            [
                 'id' => 106,
                 'supplier_id' => 6,
                 'created_by' => 7,
@@ -337,9 +338,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 7,
-            ),
+            ],
             17 =>
-            array (
+            [
                 'id' => 107,
                 'supplier_id' => 1,
                 'created_by' => 6,
@@ -356,9 +357,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 6,
-            ),
+            ],
             18 =>
-            array (
+            [
                 'id' => 108,
                 'supplier_id' => 2,
                 'created_by' => 4,
@@ -375,9 +376,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 4,
-            ),
+            ],
             19 =>
-            array (
+            [
                 'id' => 109,
                 'supplier_id' => 2,
                 'created_by' => 4,
@@ -394,9 +395,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 4,
-            ),
+            ],
             20 =>
-            array (
+            [
                 'id' => 110,
                 'supplier_id' => 1,
                 'created_by' => 3,
@@ -413,9 +414,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 3,
-            ),
+            ],
             21 =>
-            array (
+            [
                 'id' => 111,
                 'supplier_id' => 1,
                 'created_by' => 2,
@@ -432,9 +433,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-04 00:00:00',
                 'submitted_by' => 2,
-            ),
+            ],
             22 =>
-            array (
+            [
                 'id' => 140,
                 'supplier_id' => 6,
                 'created_by' => null,
@@ -451,9 +452,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-25 16:41:33',
                 'submitted_by' => 2,
-            ),
+            ],
             23 =>
-            array (
+            [
                 'id' => 141,
                 'supplier_id' => 8,
                 'created_by' => null,
@@ -470,9 +471,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-25 17:10:55',
                 'submitted_by' => 2,
-            ),
+            ],
             24 =>
-            array (
+            [
                 'id' => 142,
                 'supplier_id' => 8,
                 'created_by' => null,
@@ -489,9 +490,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => 2,
                 'approved_date' => '2006-04-25 17:18:51',
                 'submitted_by' => 2,
-            ),
+            ],
             25 =>
-            array (
+            [
                 'id' => 146,
                 'supplier_id' => 2,
                 'created_by' => 2,
@@ -508,9 +509,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => null,
                 'approved_date' => null,
                 'submitted_by' => 2,
-            ),
+            ],
             26 =>
-            array (
+            [
                 'id' => 147,
                 'supplier_id' => 7,
                 'created_by' => 2,
@@ -527,9 +528,9 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => null,
                 'approved_date' => null,
                 'submitted_by' => 2,
-            ),
+            ],
             27 =>
-            array (
+            [
                 'id' => 148,
                 'supplier_id' => 5,
                 'created_by' => 2,
@@ -546,7 +547,8 @@ class PurchaseOrdersTableSeeder extends Seeder
                 'approved_by' => null,
                 'approved_date' => null,
                 'submitted_by' => 2,
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }

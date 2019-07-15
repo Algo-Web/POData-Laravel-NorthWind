@@ -14,9 +14,10 @@ class ProductsTableSeeder extends Seeder
     {
         \DB::table('products')->delete();
         
-        \DB::table('products')->insert(array (
+        \DB::table('products')->insert(
+            [
             0 =>
-            array (
+            [
                 'supplier_ids' => '4',
                 'id' => 1,
                 'product_code' => 'NWTB-1',
@@ -31,9 +32,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Beverages',
                 'attachments' => '',
-            ),
+            ],
             1 =>
-            array (
+            [
                 'supplier_ids' => '10',
                 'id' => 3,
                 'product_code' => 'NWTCO-3',
@@ -48,9 +49,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Condiments',
                 'attachments' => '',
-            ),
+            ],
             2 =>
-            array (
+            [
                 'supplier_ids' => '10',
                 'id' => 4,
                 'product_code' => 'NWTCO-4',
@@ -65,9 +66,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Condiments',
                 'attachments' => '',
-            ),
+            ],
             3 =>
-            array (
+            [
                 'supplier_ids' => '10',
                 'id' => 5,
                 'product_code' => 'NWTO-5',
@@ -82,9 +83,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Oil',
                 'attachments' => '',
-            ),
+            ],
             4 =>
-            array (
+            [
                 'supplier_ids' => '2;6',
                 'id' => 6,
                 'product_code' => 'NWTJP-6',
@@ -99,9 +100,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Jams, Preserves',
                 'attachments' => '',
-            ),
+            ],
             5 =>
-            array (
+            [
                 'supplier_ids' => '2',
                 'id' => 7,
                 'product_code' => 'NWTDFN-7',
@@ -116,9 +117,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Dried Fruit & Nuts',
                 'attachments' => '',
-            ),
+            ],
             6 =>
-            array (
+            [
                 'supplier_ids' => '8',
                 'id' => 8,
                 'product_code' => 'NWTS-8',
@@ -133,9 +134,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Sauces',
                 'attachments' => '',
-            ),
+            ],
             7 =>
-            array (
+            [
                 'supplier_ids' => '2;6',
                 'id' => 14,
                 'product_code' => 'NWTDFN-14',
@@ -150,9 +151,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Dried Fruit & Nuts',
                 'attachments' => '',
-            ),
+            ],
             8 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 17,
                 'product_code' => 'NWTCFV-17',
@@ -167,9 +168,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             9 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 19,
                 'product_code' => 'NWTBGM-19',
@@ -184,9 +185,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 5,
                 'category' => 'Baked Goods & Mixes',
                 'attachments' => '',
-            ),
+            ],
             10 =>
-            array (
+            [
                 'supplier_ids' => '2;6',
                 'id' => 20,
                 'product_code' => 'NWTJP-6',
@@ -201,9 +202,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Jams, Preserves',
                 'attachments' => '',
-            ),
+            ],
             11 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 21,
                 'product_code' => 'NWTBGM-21',
@@ -218,9 +219,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 5,
                 'category' => 'Baked Goods & Mixes',
                 'attachments' => '',
-            ),
+            ],
             12 =>
-            array (
+            [
                 'supplier_ids' => '4',
                 'id' => 34,
                 'product_code' => 'NWTB-34',
@@ -235,9 +236,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 15,
                 'category' => 'Beverages',
                 'attachments' => '',
-            ),
+            ],
             13 =>
-            array (
+            [
                 'supplier_ids' => '7',
                 'id' => 40,
                 'product_code' => 'NWTCM-40',
@@ -252,9 +253,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 30,
                 'category' => 'Canned Meat',
                 'attachments' => '',
-            ),
+            ],
             14 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 41,
                 'product_code' => 'NWTSO-41',
@@ -269,9 +270,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Soups',
                 'attachments' => '',
-            ),
+            ],
             15 =>
-            array (
+            [
                 'supplier_ids' => '3;4',
                 'id' => 43,
                 'product_code' => 'NWTB-43',
@@ -286,9 +287,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Beverages',
                 'attachments' => '',
-            ),
+            ],
             16 =>
-            array (
+            [
                 'supplier_ids' => '10',
                 'id' => 48,
                 'product_code' => 'NWTCA-48',
@@ -303,9 +304,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Candy',
                 'attachments' => '',
-            ),
+            ],
             17 =>
-            array (
+            [
                 'supplier_ids' => '2',
                 'id' => 51,
                 'product_code' => 'NWTDFN-51',
@@ -320,9 +321,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Dried Fruit & Nuts',
                 'attachments' => '',
-            ),
+            ],
             18 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 52,
                 'product_code' => 'NWTG-52',
@@ -337,9 +338,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Grains',
                 'attachments' => '',
-            ),
+            ],
             19 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 56,
                 'product_code' => 'NWTP-56',
@@ -354,9 +355,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 30,
                 'category' => 'Pasta',
                 'attachments' => '',
-            ),
+            ],
             20 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 57,
                 'product_code' => 'NWTP-57',
@@ -371,9 +372,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 20,
                 'category' => 'Pasta',
                 'attachments' => '',
-            ),
+            ],
             21 =>
-            array (
+            [
                 'supplier_ids' => '8',
                 'id' => 65,
                 'product_code' => 'NWTS-65',
@@ -388,9 +389,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Sauces',
                 'attachments' => '',
-            ),
+            ],
             22 =>
-            array (
+            [
                 'supplier_ids' => '8',
                 'id' => 66,
                 'product_code' => 'NWTS-66',
@@ -405,9 +406,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 20,
                 'category' => 'Sauces',
                 'attachments' => '',
-            ),
+            ],
             23 =>
-            array (
+            [
                 'supplier_ids' => '5',
                 'id' => 72,
                 'product_code' => 'NWTD-72',
@@ -422,9 +423,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 10,
                 'category' => 'Dairy products',
                 'attachments' => '',
-            ),
+            ],
             24 =>
-            array (
+            [
                 'supplier_ids' => '2;6',
                 'id' => 74,
                 'product_code' => 'NWTDFN-74',
@@ -439,9 +440,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 5,
                 'category' => 'Dried Fruit & Nuts',
                 'attachments' => '',
-            ),
+            ],
             25 =>
-            array (
+            [
                 'supplier_ids' => '10',
                 'id' => 77,
                 'product_code' => 'NWTCO-77',
@@ -456,9 +457,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 15,
                 'category' => 'Condiments',
                 'attachments' => '',
-            ),
+            ],
             26 =>
-            array (
+            [
                 'supplier_ids' => '2',
                 'id' => 80,
                 'product_code' => 'NWTDFN-80',
@@ -473,9 +474,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Dried Fruit & Nuts',
                 'attachments' => '',
-            ),
+            ],
             27 =>
-            array (
+            [
                 'supplier_ids' => '3',
                 'id' => 81,
                 'product_code' => 'NWTB-81',
@@ -490,9 +491,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 25,
                 'category' => 'Beverages',
                 'attachments' => '',
-            ),
+            ],
             28 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 82,
                 'product_code' => 'NWTC-82',
@@ -507,9 +508,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Cereal',
                 'attachments' => '',
-            ),
+            ],
             29 =>
-            array (
+            [
                 'supplier_ids' => '9',
                 'id' => 83,
                 'product_code' => 'NWTCS-83',
@@ -524,9 +525,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Chips, Snacks',
                 'attachments' => '',
-            ),
+            ],
             30 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 85,
                 'product_code' => 'NWTBGM-85',
@@ -541,9 +542,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 5,
                 'category' => 'Baked Goods & Mixes',
                 'attachments' => '',
-            ),
+            ],
             31 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 86,
                 'product_code' => 'NWTBGM-86',
@@ -558,9 +559,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => 5,
                 'category' => 'Baked Goods & Mixes',
                 'attachments' => '',
-            ),
+            ],
             32 =>
-            array (
+            [
                 'supplier_ids' => '7',
                 'id' => 87,
                 'product_code' => 'NWTB-87',
@@ -575,9 +576,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Beverages',
                 'attachments' => '',
-            ),
+            ],
             33 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 88,
                 'product_code' => 'NWTCFV-88',
@@ -592,9 +593,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             34 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 89,
                 'product_code' => 'NWTCFV-89',
@@ -609,9 +610,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             35 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 90,
                 'product_code' => 'NWTCFV-90',
@@ -626,9 +627,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             36 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 91,
                 'product_code' => 'NWTCFV-91',
@@ -643,9 +644,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             37 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 92,
                 'product_code' => 'NWTCFV-92',
@@ -660,9 +661,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             38 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 93,
                 'product_code' => 'NWTCFV-93',
@@ -677,9 +678,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             39 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 94,
                 'product_code' => 'NWTCFV-94',
@@ -694,9 +695,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Fruit & Vegetables',
                 'attachments' => '',
-            ),
+            ],
             40 =>
-            array (
+            [
                 'supplier_ids' => '7',
                 'id' => 95,
                 'product_code' => 'NWTCM-95',
@@ -711,9 +712,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Meat',
                 'attachments' => '',
-            ),
+            ],
             41 =>
-            array (
+            [
                 'supplier_ids' => '7',
                 'id' => 96,
                 'product_code' => 'NWTCM-96',
@@ -728,9 +729,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Canned Meat',
                 'attachments' => '',
-            ),
+            ],
             42 =>
-            array (
+            [
                 'supplier_ids' => '1',
                 'id' => 97,
                 'product_code' => 'NWTC-82',
@@ -745,9 +746,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Cereal',
                 'attachments' => '',
-            ),
+            ],
             43 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 98,
                 'product_code' => 'NWTSO-98',
@@ -762,9 +763,9 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Soups',
                 'attachments' => '',
-            ),
+            ],
             44 =>
-            array (
+            [
                 'supplier_ids' => '6',
                 'id' => 99,
                 'product_code' => 'NWTSO-99',
@@ -779,7 +780,8 @@ class ProductsTableSeeder extends Seeder
                 'minimum_reorder_quantity' => null,
                 'category' => 'Soups',
                 'attachments' => '',
-            ),
-        ));
+            ],
+            ]
+        );
     }
 }
