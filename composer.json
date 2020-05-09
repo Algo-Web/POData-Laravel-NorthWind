@@ -5,8 +5,8 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",
+        "php": ">=7.0",
+        "laravel/framework": "5.5.*",
         "algo-web/podata-laravel": "dev-master",
         "orangehill/iseed": "2.2",
         "mpociot/laravel-test-factory-helper": "^0.4.0",
@@ -56,10 +56,14 @@
     "config": {
         "preferred-install": "dist"
     },
-    "repositories": {
-        "repo-name": {
+    "repositories": [
+        {
             "type": "vcs",
             "url": "https://github.com/jamisonvalenta/Laravel-4-Generators.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/CyberiaResurrection/POData-Laravel.git"
         }
-    }
+    ]
 }

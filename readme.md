@@ -1,6 +1,6 @@
 ## POData-Laravel-Northwind
 
-This is a minimal Laravel 5.1 application to verify that the POData-Laravel package (https://github.com/AlgoWeb/POData-Laravel) actually does what it says on the tin and integrates with Laravel.
+This is a minimal Laravel 5.5 application to verify that the POData-Laravel package (https://github.com/AlgoWeb/POData-Laravel) actually does what it says on the tin and integrates with Laravel.
 
 Thank you to Kyrylo Kostiukov (https://github.com/kirill533) for prodding me to get some very basic setup instructions written and kindly testing earlier versions of this document.
 
