@@ -8,25 +8,21 @@
         "php": ">=7.0",
         "laravel/framework": "5.5.*",
         "algo-web/podata-laravel": "dev-master",
-        "orangehill/iseed": "2.2",
         "mpociot/laravel-test-factory-helper": "^0.4.0",
         "justinrainbow/json-schema": "^5.0@dev",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "ext-dom": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "dev-master",
         "phpunit/phpunit": "~5.6",
         "phpspec/phpspec": "~2.1",
-        "ignasbernotas/laravel-model-generator": "^1.1",
-        "way/generators": "dev-feature/laravel-five-stable",
-        "xethron/migrations-generator": "^2.0",
         "squizlabs/php_codesniffer": "3.*"
     },
     "autoload": {
         "classmap": [
             "database",
-            "app/Models",
             "tests"
         ],
         "psr-4": {
