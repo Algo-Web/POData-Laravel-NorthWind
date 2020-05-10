@@ -7,6 +7,7 @@
     "require": {
         "php": ">=7.0",
         "laravel/framework": "5.5.*",
+        "cruxinator/class-finder": "1.0.0-RC2|dev-master",
         "algo-web/podata-laravel": "dev-master",
         "mpociot/laravel-test-factory-helper": "^0.4.0",
         "justinrainbow/json-schema": "^5.0@dev",
