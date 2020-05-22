@@ -13,6 +13,7 @@ class FilterTest extends \Tests\TestCase
         $url = '/odata.svc/Customers?$filter=first_name eq \'simon\'';
 
         $result = $this->get($url);
+        dd( $result);
         $this->assertEquals(200, $result->getStatusCode());
     }
 
