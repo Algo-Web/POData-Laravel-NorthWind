@@ -1,44 +1,36 @@
 <?php
 namespace App\Http\Controllers;
 
-use AlgoWeb\PODataLaravel\Controllers\MetadataControllerTrait;
-
 class HomeController extends Controller
 {
-    use MetadataControllerTrait;
-
-    public function processGet()
+    public function ProcessGet()
     {
-        $version     = "v0.0.1";
+		$version     = "v0.0.1";
         $url         = "";
         $requestBody = "";
-        $methodData  = [
+        $methodData  = Array(
             "GET" => 0,
             "POST" => 0,
             "PUT" => 0,
             "PATCH" => 0,
             "DELETE" => 0
-        ];
-        $opt = "";
-        foreach ($methodData as $tName => $tSelected) {
-            $opt .= sprintf(
-                "<option value='%s' %s>%s</option>",
-                $tName,
-                ($tSelected == 1) ? "selected" : "",
-                $tName
-            );
+        );
+		$opt = "";
+        foreach($methodData as $tName=>$tSelected) {
+                $opt .= sprintf("<option value='%s' %s>%s</option>", $tName, ($tSelected == 1) ? "selected" : "", $tName);
         }
-        $url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
-        return view('home', ["opt" => $opt, "version" => $version, "url" =>$url
-            ,"requestHeaderRaw"=>"","requestBody"=>"","rHeader"=>"","rData"=>"","rError"=>""]);
+		$url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
+		return view('home', ["opt" => $opt, "version" => $version, "url" =>$url
+			,"requestHeaderRaw"=>"","requestBody"=>"","rHeader"=>"","rData"=>"","rError"=>""]);
+
     }
 
-    public function processPost()
+    public function ProcessPost()
     {
         $version     = "v0.0.1";
         $url         = "";
         $requestBody = "";
-        $methodData  = array(
+        $methodData  = Array(
             "GET" => 0,
             "POST" => 0,
             "PUT" => 0,
@@ -52,7 +44,7 @@ class HomeController extends Controller
             $methodData[$requestMethod] = 1;
             $requestBody                = $_POST['requestBody'];
             $requestHeaderRaw           = $_POST['requestHeader'];
-            $requestHeaders             = array();
+            $requestHeaders             = Array();
             $requestHeaderLines         = explode("\n", $requestHeaderRaw);
             foreach ($requestHeaderLines as $line) {
                 if (strpos($line, ":") !== false) {
@@ -77,20 +69,12 @@ class HomeController extends Controller
         } else {
             $requestHeaderRaw = "Content-Type: application/json\n";
         }
-        $opt = "";
-        foreach ($methodData as $tName => $tSelected) {
-            $opt .= sprintf(
-                "<option value='%s' %s>%s</option>",
-                $tName,
-                ($tSelected == 1) ? "selected" : "",
-                $tName
-            );
+		$opt = "";
+        foreach($methodData as $tName=>$tSelected) {
+                $opt .= sprintf("<option value='%s' %s>%s</option>", $tName, ($tSelected == 1) ? "selected" : "", $tName);
         }
-        $url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
-        $payload = [
-            'opt' => $opt, "version" => $version, "url" => $url, "requestHeaderRaw" => $requestHeaderRaw,
-            "requestBody" => $requestBody, "rHeader" => $rHeader, "rData" => $rData, "rError" => $rError
-        ];
-        return view('home', $payload);
+		$url = htmlspecialchars($url, ENT_QUOTES, "UTF-8");
+		return view('home', ['opt' => $opt, "version" => $version, "url" =>$url,"requestHeaderRaw"=>$requestHeaderRaw,"requestBody"=>$requestBody,"rHeader"=>$rHeader,"rData"=>$rData,"rError"=>$rError]);
+        
     }
 }

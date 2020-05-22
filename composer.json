@@ -49,18 +49,5 @@
             "Illuminate\\Foundation\\ComposerScripts::postUpdate"
         ]
     },
-    "minimum-stability": "dev",
-    "config": {
-        "preferred-install": "dist"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jamisonvalenta/Laravel-4-Generators.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/CyberiaResurrection/POData-Laravel.git"
-        }
-    ]
+    "minimum-stability": "dev"
 }

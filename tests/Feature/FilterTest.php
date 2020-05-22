@@ -6,7 +6,7 @@
  * Time: 2:18 AM
  */
 
-class FilterTest extends TestCase
+class FilterTest extends \Tests\TestCase
 {
     public function testGetCustomersWithFilter()
     {

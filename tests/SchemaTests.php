@@ -1,4 +1,6 @@
 <?php
+namespace Tests;
+
 class Schemas
 {
     public static function ATOMxsd()
