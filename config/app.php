@@ -176,10 +176,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        //AlgoWeb\PODataLaravel\Providers\MetadataProvider::class,
-        //AlgoWeb\PODataLaravel\Providers\QueryProvider::class,
-        //AlgoWeb\PODataLaravel\Providers\MetadataRouteProvider::class,
-        //AlgoWeb\PODataLaravel\Providers\MetadataControllerProvider::class,
+        AlgoWeb\PODataLaravel\Providers\MetadataProvider::class,
+        AlgoWeb\PODataLaravel\Providers\QueryProvider::class,
+        AlgoWeb\PODataLaravel\Providers\MetadataRouteProvider::class,
+        AlgoWeb\PODataLaravel\Providers\MetadataControllerProvider::class,
     ],
 
     /*
