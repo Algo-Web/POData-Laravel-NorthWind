@@ -1,10 +1,12 @@
 <?php
+namespace Tests\xsd;
 
+use DOMDocument;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class XMLXSDMetadataTest extends TestCase
+class XMLXSDMetadataTest extends \Tests\TestCase
 {
 
     public function getMetadataDocument($version)

@@ -2,16 +2,17 @@ language: php
 services:
   - mysql
 php:
-  - 5.6
-  - 7.0
   - 7.1
+  - 7.2
+  - 7.3
   - nightly
 
 before_script:
   - composer install
-  - mysql -e 'create database odata;'
-  - php artisan migrate 
+  - touch database/database.sqlite
+  - cp .env.travis .env
   - php artisan migrate --seed
+  - php artisan key:generate
 #  - wget http://getcomposer.org/composer.phar
 #  - php composer.phar require satooshi/php-coveralls:dev-master --dev --no-progress --prefer-source
 
