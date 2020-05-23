@@ -1,6 +1,7 @@
 <?php
 namespace Tests\xsd;
 
+use DOMDocument;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;

@@ -1,9 +1,11 @@
 <?php
 namespace Tests;
 
+use DOMDocument;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+use XSLTProcessor;
 
 class XMLMetadataTest extends TestCase
 {
